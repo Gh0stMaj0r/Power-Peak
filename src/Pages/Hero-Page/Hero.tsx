@@ -14,10 +14,10 @@ const Hero = () => {
             <div className="landing">
                 <h1>"No pain no gain"</h1>
                 <p>Tervetuloa Power Peakille – Kuntosalille, jossa voima kukoistaa ja huippukunto saavutetaan yhdessä!</p>
-                <button className="landing-button">Tutustu!</button>
+                <a href="#services"><button className="landing-button">Tutustu!</button></a>
             </div>
 
-            <div className="services">
+            <div className="services" id="services">
                 <h1>Palvelut</h1>
                 <hr></hr>
                 <div className="images">
@@ -94,7 +94,9 @@ const Hero = () => {
 
                 <div className="price-list-button">
                     <p>*Tarkemman hinnaston näet</p>
-                    <button className="yellow-button">Täältä <ArrowRight></ArrowRight></button>
+                    <a className="button-link" href="/hinnasto">
+                        <button className="yellow-button">Täältä <ArrowRight></ArrowRight></button>
+                    </a>
                 </div>
             </div>
         </section>

@@ -21,11 +21,11 @@ const Footer = () => {
                 <h3>Yhteystiedot</h3>
                 <hr className='hr-footer'></hr>
                 <div className='maps-contact'>
-                    <iframe src='https://www.w3schools.com' title="W3Schools Free Online Web Tutorials"></iframe>
+                    <iframe width={200} src='https://www.w3schools.com' title="W3Schools Free Online Web Tutorials"></iframe>
                     <div className='contact-column'>
-                        <p>powerpeak@gmail.com</p>
-                        <p>040-8527345</p>
-                        <p>Osoite</p>
+                        <p>📩 powerpeak@gmail.com</p>
+                        <p>☎️ 040-8527345</p>
+                        <p>📍 Osoite</p>
                     </div>
                 </div>
             </div>
@@ -39,6 +39,8 @@ const Footer = () => {
                     <Linkedin></Linkedin>
                     <Tiktok></Tiktok>
                 </div>
+                <p>© 2023 Power Peak</p>
+                <p>All Rights Reserved</p>
             </div>
         </section>
     )
