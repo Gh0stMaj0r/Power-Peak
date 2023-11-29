@@ -38,7 +38,7 @@
 
 .H-Body {
   background-color: #282c34;
-  height: 100vh;
+  height: 300vh;
 }
 
 .otsikko {
@@ -55,6 +55,7 @@
 
 .paikka {
   margin-left: 53vh;
+  margin-top: 2vh;
 }
 
 .hinta-container {
@@ -67,26 +68,82 @@
   margin-top: 2vh;
 }
 
-.tuote,
-.hinta {
-  margin-right: 10px; /* Adjust as needed to add space between the texts */
-  font-family: Playfair Display;
+.hinta1, .hinta2, .hinta3, .PRhinta, .PRhinta2, .tuote, .PRhinta3,.TRhinta,.TRhinta2,.TRhinta3,.RMhinta, .RMhinta2, .PRp,.RMp{
+  font-size: 5vh;
+  display: flex;
+}
+h1{
+  font-size: 7vh;
+  top: 1vh;
 }
 .hinta1{
-  margin-left: 95vh; /* Adjust this value as needed */
+  margin-left: 93vh; /* Adjust this value as needed */
   color: white;
   float: right;
   font-family: Playfair Display;
 }
 .hinta2 {
-  margin-left: 92vh; /* Adjust this value as needed */
+  margin-left: 90vh; /* Adjust this value as needed */
   color: white;
   float: right;
   font-family: Playfair Display;
 }
 
 .hinta3 {
-  margin-left: 92vh; /* Adjust this value as needed */
+  margin-left: 76vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.PRhinta{
+  margin-left: 96vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.PRhinta2{
+  margin-left: 95vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.PRhinta3{
+  margin-left: 93vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.PRp, .RMp{
+  color:white;
+  text-align-last: center;
+  margin-left: 40vh;
+  margin-right: 25vh;
+  display: flex;
+}
+.personaltrainer{
+  margin-top: 10vh;
+}
+.TRhinta{
+  margin-top: 3vh;
+    margin-left: 41vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.TRhinta2{
+  margin-top: 3vh;
+    margin-left: 57vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.TRhinta3{
+  margin-top: 3vh;
+    margin-left: 67vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.RMhinta{
+    margin-left: 72vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+.RMhinta2{
+    margin-left: 70vh; /* Adjust this value as needed */
   color: white;
   font-family: Playfair Display;
 }
