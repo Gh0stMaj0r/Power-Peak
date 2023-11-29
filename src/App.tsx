@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Hero from "./Pages/Hero-Page/Hero";
+import Prices from "./Pages/Price-list-Page/Prices"
 
 import {
   BrowserRouter as Router,
@@ -15,8 +16,10 @@ function App() {
       <Routes>
         <Route
           path='/'
-          element={<Hero/>}
-        />
+          element={<Hero/>}/>
+        <Route
+          path='/hinnasto'
+          element={<Prices/>}/>
       </Routes>
     </Router>
   );

@@ -1,0 +1,169 @@
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffff00;
+    text-align: left;
+    margin: 0;
+}
+
+hr {
+    border: 2px solid #ffff00;
+    width: 50vw;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+.landing {
+    background-image: url(../../../public/Images/Hero.png);
+    font-family: 'Bebas Neue', sans-serif;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 6rem;
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        width: 28vw;
+        text-align: center;
+        font-size: 1.8rem;
+        transform: translate(0, -2vh);
+    }
+
+    .landing-button {
+        width: 12vw;
+        padding: 12px;
+        border: 3px solid black;
+        border-radius: 32px;
+        background-color: #ffff00;
+        transform: translate(0, -2vh);
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.services {
+    background-color: #262626;
+    text-align: center;
+    height: 70vh;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 40px;
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2vw;
+        padding: 4rem;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+
+        .image {
+            filter: blur(1px);
+            -webkit-filter: blur(1px);
+            transition: transform .2s
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+    }
+
+      /* Centered text */
+    .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', sans-serif;
+  }
+}
+
+.supplements {
+    background-color: #262626;
+    text-align: center;
+    height: 110vh;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 40px;
+
+    .supp-text {
+        width: 80vw;
+    }
+
+    .supp-logos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .supp-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.yellow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ffff00;
+    padding: 12px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+.price-list {
+    background-color: #262626;
+    text-align: center;
+    height: 140vh;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 40px;
+
+    .prices {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10vh;
+    }
+
+    .prices-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .price-list-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

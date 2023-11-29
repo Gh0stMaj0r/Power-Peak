@@ -1,0 +1,51 @@
+h3 {
+    font-family: 'Bebas Neue', 'sans-serif';
+    color: white;
+    font-size: 2rem;
+}
+
+.footer {
+    height: 30vh;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10vw;
+    padding: 20px;
+}
+
+.hr-footer {
+    width: auto;
+    transform: translate(0, -2vh);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 1vh;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.maps-contact {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.social-links {
+    color: white;
+    font-size: 1.8rem;
+    gap: 1vw;
+    display: flex;
+}

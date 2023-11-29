@@ -5,11 +5,12 @@ import './Navbar.scss'
 const Header = () => {
     return (
         <div className="header">
-            <a href="#default" className="logo">CompanyLogo</a>
+            <a className='logo-link' href='/'><img className='logo' src="./Images/PowerPeak.png" alt="" /></a>
         <div className="header-right">
-            <a className="active" href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="/palvelut">Palvelut</a>
+            <a href="/ravinteet">Lisäravinteet</a>
+            <a href="/hinnasto">Hinnasto</a>
+            <a href="/yhteystiedot">Yhteystiedot</a>
             </div>
         </div>
     )

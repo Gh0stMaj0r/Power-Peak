@@ -1,0 +1,92 @@
+.Prices {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* styles.css */
+
+.H_Header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vh;
+  font-family: 'Bebas Neue';
+  color: white;
+}
+
+.Header-text {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.underline {
+  position: relative;
+  left: 0;
+  height: 2px; /* Adjust the thickness of the underline */
+  width: 50%;
+  background-color: #FFFF00;
+}
+
+.H-Body {
+  background-color: #282c34;
+  height: 100vh;
+}
+
+.otsikko {
+  color: #FFFF00;
+  margin-left: 53vh;
+}
+
+.tuote {
+  color: white;
+  margin-left: 53vh;
+  font-size: 4vh;
+  font-family: Playfair Display;
+}
+
+.paikka {
+  margin-left: 53vh;
+}
+
+.hinta-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.tuote,
+.hinta {
+  margin-right: 10px; /* Adjust as needed to add space between the texts */
+  font-family: Playfair Display;
+}
+.hinta1{
+  margin-left: 95vh; /* Adjust this value as needed */
+  color: white;
+  float: right;
+  font-family: Playfair Display;
+}
+.hinta2 {
+  margin-left: 92vh; /* Adjust this value as needed */
+  color: white;
+  float: right;
+  font-family: Playfair Display;
+}
+
+.hinta3 {
+  margin-left: 92vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
