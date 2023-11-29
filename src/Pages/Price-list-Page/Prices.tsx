@@ -1,6 +1,6 @@
 import React from 'react';
 import './Prices.scss';
-
+import { ArrowRight } from "react-bootstrap-icons";
 import Header from "../../Components/Header/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
@@ -95,8 +95,31 @@ const Hinnat = () => {
 <p className='RMp'>Ravitsemusohjelmaan sisältyy kolme tapaamista ja yksi koko kehonkoostumusmittaus per kuukausi
 + ruokapäiväkirja, analyysit ja seuranta</p>
 </div>
+<div className='personaltrainer'>
+<h1 className='otsikko'>HIERONTA</h1>
+
+<div className="container">
+  <div className="tuote">25min</div>
+  <div className="hinta2">30€</div>
+</div>
+<br></br>
+<div className="container">
+  <div className="tuote">50min</div>
+  <div className="hinta2">50€</div>
+</div>
+<br></br>
+<div className="container">
+  <div className="tuote">75min</div>
+  <div className="Hhinta">75€</div>
+</div>
+<div className="price-list-button">
+                    <p className='Maksu'>Maksamaan</p>
+                    <a className="button-link" href="/hinnasto">
+                        <button className="yellow-button"><p className='nappi'>ostoskori</p><ArrowRight></ArrowRight></button>
+                    </a>
+                </div>
       </div>
-      
+    </div>
     </div>
 
     <Footer/>

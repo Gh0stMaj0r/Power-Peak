@@ -38,7 +38,7 @@
 
 .H-Body {
   background-color: #282c34;
-  height: 300vh;
+  height: 400vh;
 }
 
 .otsikko {
@@ -68,7 +68,7 @@
   margin-top: 2vh;
 }
 
-.hinta1, .hinta2, .hinta3, .PRhinta, .PRhinta2, .tuote, .PRhinta3,.TRhinta,.TRhinta2,.TRhinta3,.RMhinta, .RMhinta2, .PRp,.RMp{
+.hinta1, .hinta2, .hinta3, .PRhinta, .PRhinta2, .tuote, .PRhinta3,.TRhinta,.TRhinta2,.TRhinta3,.RMhinta, .RMhinta2,.Hhinta, .PRp,.RMp,.Maksu{
   font-size: 5vh;
   display: flex;
 }
@@ -116,6 +116,12 @@ h1{
   margin-right: 25vh;
   display: flex;
 }
+.Maksu{
+  color: white;
+  text-align-last: center;
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
 .personaltrainer{
   margin-top: 10vh;
 }
@@ -146,4 +152,23 @@ h1{
     margin-left: 70vh; /* Adjust this value as needed */
   color: white;
   font-family: Playfair Display;
+}
+.Hhinta{
+  margin-left: 92vh; /* Adjust this value as needed */
+color: white;
+font-family: Playfair Display;
+}
+.price-list-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.yellow-button{
+  font-size: 2vh;
+}
+.nappi{
+  font-size: 2vh;
+  font-family: Playfair Display;
+  border: 0;
 }
