@@ -2,8 +2,9 @@ import React from 'react';
 import './App.css';
 
 import Hero from "./Pages/Hero-Page/Hero";
+import Massage from './Pages/Massage-Page/Massage';
 import Supplements from './Pages/Supplements-Page/Supplements';
-import Prices from "./Pages/Price-list-Page/Prices"
+import Prices from "./Pages/Price-list-Page/Prices";
 
 import {
   BrowserRouter as Router,
@@ -18,6 +19,9 @@ function App() {
         <Route
           path='/'
           element={<Hero/>}/>
+          <Route
+          path='/hieronta'
+          element={<Massage/>}/>
         <Route
           path='/ravinteet'
           element={<Supplements/>}/>
