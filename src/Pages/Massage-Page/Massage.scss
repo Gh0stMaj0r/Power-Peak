@@ -8,6 +8,10 @@ p {
     font-family: 'Playfair Display', serif;
 }
 
+.massage {
+    background-color: #262626;
+}
+
 .massage-background {
     background-image: url(../../../public/Images/Massage-background2.png);
     height: 100vh;
@@ -37,4 +41,38 @@ p {
         width: 40vw;
         font-size: 2rem;
     } 
+}
+
+.massage-benefits {
+    color: white;
+    height: 160vh;
+
+    .benefits-text {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+
+        p {
+            width: 60vw;
+        }
+    }
+}
+
+.service-prices {
+    color: white;
+    font-size: 40px;
+    height: 80vh;
+
+    .prices-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .price-button {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }

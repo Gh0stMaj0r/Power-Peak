@@ -10,7 +10,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 10vw;
+    gap: 15vw;
     padding: 20px;
 }
 
@@ -57,4 +57,31 @@ h3 {
     gap: 1vw;
     display: flex;
     margin-bottom: 5vh;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        height: 110vh;
+    }
+
+    .social-links {
+        gap: 4vw;
+    }
 }

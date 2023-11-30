@@ -1,0 +1,45 @@
+body {
+    background-color: #262626;
+}
+
+.personaltrainer {
+    height: 280vh;
+}
+
+.trainer-info {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .info-text {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    
+    .trainer-text {
+        width: 60vw;
+    }
+}
+
+.trainer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    width: 70vw;
+}
+
+.trainer-shop {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.trainer-shop-text {
+    width: 60vw;
+}

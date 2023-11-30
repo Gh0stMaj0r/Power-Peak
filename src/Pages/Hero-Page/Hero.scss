@@ -175,3 +175,96 @@ p {
         flex-direction: column;
     }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .landing {
+        background-size: cover;
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            width: 60vw;
+        }
+
+        .landing-button {
+            width: 40vw;
+        }
+    }
+    
+    .services {
+        flex-direction: column;
+        height: 110vh;
+        
+        .images {
+            flex-direction: column;
+        }
+
+        .image {
+            width: 70vw;
+        }
+    }
+
+    .supplements {
+        height: 200vh;
+        
+        .supp-text {
+            width: 100vw;
+            font-size: 30px;
+        }
+
+        .supp-logos {
+            flex-direction: column;
+            width: 100vw;
+            gap: 2vh;
+        }
+
+        .logo {
+            width: 80vw;
+        }
+
+        .supp-button {
+            margin-top: 5vh;
+        }
+    }
+
+    .price-list {
+        font-size: 35px;
+    }
+
+    .yellow-button {
+        width: fit-content;
+    }
+
+    .price-list {
+        height: 180vh;
+        font-size: 30px;
+        padding: 20px;
+
+        .program {
+            width: 10vw;
+        }
+
+        .progg-price {
+            margin-top: 8vh;
+        }
+    }
+
+}

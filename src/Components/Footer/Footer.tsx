@@ -21,7 +21,6 @@ const Footer = () => {
                 <h3>Yhteystiedot</h3>
                 <hr className='hr-footer'></hr>
                 <div className='maps-contact'>
-                    <iframe width={200} src='https://www.w3schools.com' title="W3Schools Free Online Web Tutorials"></iframe>
                     <div className='contact-column'>
                         <p>📩 powerpeak@gmail.com</p>
                         <p>☎️ 040-8527345</p>

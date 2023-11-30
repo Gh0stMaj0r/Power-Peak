@@ -50,9 +50,9 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="supp-logos">
-                    <img src="./Images/Nutrition.png" alt="" />
-                    <img src="./Images/Leader.png" alt="" />
-                    <img src="./Images/Sportlife.png" alt="" />
+                    <img className="logo" src="./Images/Nutrition.png" alt="" />
+                    <img className="logo" src="./Images/Leader.png" alt="" />
+                    <img className="logo" src="./Images/Sportlife.png" alt="" />
                 </div>
                 <div className="supp-button">
                     <button className="yellow-button"> Valikoima <ArrowRight></ArrowRight></button>
@@ -77,12 +77,12 @@ const Hero = () => {
 
                     <h2>Ohjelmat</h2>
                     <div className="prices-row">
-                        <p>Treeniohjelma Alkaen</p>
-                        <p>29,90€</p>
+                        <p className="program">Treeniohjelma Alkaen</p>
+                        <p className="progg-price">29,90€</p>
                     </div>
                     <div className="prices-row">
-                        <p>Ravitsemusohjelma Alkaen</p>
-                        <p>25€/kk</p>
+                        <p className="program">Ravitsemusohjelma Alkaen</p>
+                        <p className="progg-price">25€/kk</p>
                     </div>
 
                     <h2>Hieronta</h2>
