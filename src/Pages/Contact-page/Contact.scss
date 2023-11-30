@@ -1,0 +1,71 @@
+.body{
+    background-color: #262626;
+    height: 300vh;
+    text-align-last: center;
+}
+
+.underline {
+    position: relative;
+    margin-left: 25vw;
+    left: 0;
+    height: 2px; /* Adjust the thickness of the underline */
+    width: 50%;
+    background-color: #FFFF00;
+  }
+h1{
+    color: #ffffff;
+    font-family: 'Bebas Neue';
+    margin-top: 10vh;
+    font-size: 10vh;
+}
+.text{
+    font-size: 5vh;
+    display: flex;
+    font-family: Playfair Display;
+    color: #ffffff;
+    text-align-last: left;
+    margin:0  25vw 0 25vw;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 0 0 25vw;
+    width: 30vw;
+
+  }
+  
+.map,.mail,.phone{
+    font-size: 5vh;
+    text-align-last: left;
+    float: left;
+    color: #ffffff;
+    margin-top: 3vw;
+}
+.tiedot{
+    font-size: 4vh;
+    display: flex;
+    font-family: Playfair Display;
+    color: #ffffff;
+    text-align-last: left;
+    margin: 5vh 0 0 9vh;
+    width: 20vw;
+}
+.dmap,.dmail,.dphone{
+    width:30vw;
+}
+form{
+    float:right ;
+    color: #ffffff;
+    font-size: 4vh;
+}
+input{
+    font-size: 4vh;
+}
+.forms{
+    float: right;
+    height: 30vh;
+    width: 40vw;
+}
+.fname{
+    font-size: 4vh;
+}
