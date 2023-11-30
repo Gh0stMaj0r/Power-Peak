@@ -1,0 +1,31 @@
+.supp-landing {
+    background-image: url(../../../public/Images/Supplement.png);
+    background-repeat: no-repeat;
+    color: white;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 6rem;
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Playfair Display', serif;
+        color: white;
+        text-align: center;
+        font-size: 1.8rem;
+        transform: translate(0, -2vh);
+    }
+}
+
+.supplements-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

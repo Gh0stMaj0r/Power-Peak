@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { CartFill } from 'react-bootstrap-icons'
 import './Navbar.scss'
 
 const Header = () => {
@@ -18,6 +19,7 @@ const Header = () => {
             <a href="/ravinteet">Lisäravinteet</a>
             <a href="/hinnasto">Hinnasto</a>
             <a href="/yhteystiedot">Yhteystiedot</a>
+            <a><CartFill></CartFill></a>
             </div>
         </div>
     )

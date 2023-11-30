@@ -85,7 +85,8 @@ p {
         .image {
             filter: blur(1px);
             -webkit-filter: blur(1px);
-            transition: transform .2s
+            transition: transform .2s;
+            width: fit-content;
         }
 
         .image:hover {

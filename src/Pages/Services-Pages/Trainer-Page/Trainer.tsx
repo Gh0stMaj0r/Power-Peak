@@ -2,8 +2,8 @@ import React from 'react'
 
 import './Trainer.scss'
 import { ArrowRight } from 'react-bootstrap-icons';
-import Header from '../../Components/Header/Navbar';
-import Footer from '../../Components/Footer/Footer';
+import Header from '../../../Components/Header/Navbar';
+import Footer from '../../../Components/Footer/Footer';
 
 const Trainer = () => {
     return (
