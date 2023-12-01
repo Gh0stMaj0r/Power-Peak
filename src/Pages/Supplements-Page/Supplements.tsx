@@ -48,10 +48,22 @@ const Supplements = () => {
                 <h1>Pre-workout</h1>
                 <hr></hr>
                 <div>
-                <Carousel responsive={responsive}>
-                    <div>Item 1</div>
-                    <div>Item 2</div>
-                    <div>Item 3</div>
+                <Carousel containerClass='carousel' responsive={responsive}>
+                    <div>
+                      <img className='carousel-images' src="./Images/Supplements/Pre1.png" alt="" />
+                      <h3>SportLife Nutrition® Pre Workout, <br></br>Cola, 250 g</h3>
+                      <p>19,90€</p>
+                    </div>
+                    <div>
+                      <img src="./Images/Supplements/Pre2.png" alt="" />
+                      <h3>Supermass PreZone <br></br>525 g</h3>
+                      <p>39.90€</p>
+                    </div>
+                    <div>
+                      <img src="./Images/Supplements/Pre3.png" alt="" />
+                      <h3>Leader Performance <br></br>Pre-Workout, 300 g, Orange</h3>
+                      <p>16,99€</p>
+                    </div>
                     <div>Item 4</div>
                 </Carousel>
                 </div>

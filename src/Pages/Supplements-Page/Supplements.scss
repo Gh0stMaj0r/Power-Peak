@@ -29,3 +29,29 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
+.carousel {
+    position: relative;
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    li {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.carousel-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-supp {
+    color: white;
+    height: 100vh;
+}

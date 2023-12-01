@@ -1,9 +1,7 @@
 import './Contact.scss';
 import Header from "../../Components/Header/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
-import { FaSquarePhone } from "react-icons/fa6";
+import { GeoAltFill, EnvelopeAtFill, PhoneFill } from 'react-bootstrap-icons';
 import React, { useState, ChangeEvent } from 'react';
 
 interface FormData {
@@ -121,13 +119,13 @@ const Contact = () => {
         <div className='underline'></div>   
         <div className='icons'>
           <div className='dmap'>
-            <FaMapMarkerAlt className='map'/> <p className='tiedot'>osoite</p>
+            <GeoAltFill className='map'></GeoAltFill> <p className='tiedot'>osoite</p>
           </div>
           <div className='dmail'>
-            <IoMdMail className='mail'/><p className='tiedot'>powerpeak@gmail.com</p>
+            <EnvelopeAtFill className='mail'></EnvelopeAtFill> <p className='tiedot'>powerpeak@gmail.com</p>
           </div>
           <div className='dphone'>
-            <FaSquarePhone className='phone'/><p className='tiedot'>040-8527345</p>
+            <PhoneFill className='phone'></PhoneFill> <p className='tiedot'>040-8527345</p>
           </div>
         </div>
         <div className='forms'>
