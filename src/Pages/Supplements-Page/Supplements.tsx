@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer'
 import './Supplements.scss'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { CartFill } from 'react-bootstrap-icons';
 
 const responsive = {
     superLargeDesktop: {
@@ -50,21 +51,46 @@ const Supplements = () => {
                 <div>
                 <Carousel containerClass='carousel' responsive={responsive}>
                     <div>
-                      <img className='carousel-images' src="./Images/Supplements/Pre1.png" alt="" />
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre1.png" alt="" />
                       <h3>SportLife Nutrition® Pre Workout, <br></br>Cola, 250 g</h3>
                       <p>19,90€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
+
                     <div>
-                      <img src="./Images/Supplements/Pre2.png" alt="" />
-                      <h3>Supermass PreZone <br></br>525 g</h3>
+                      <img src="./Images/Supplements/Pre-workout/Pre2.png" alt="" />
+                      <h3>Supermass PreZone <br></br>Wildberry, 525 g</h3>
                       <p>39.90€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
+
                     <div>
-                      <img src="./Images/Supplements/Pre3.png" alt="" />
+                      <img src="./Images/Supplements/Pre-workout/Pre3.png" alt="" />
                       <h3>Leader Performance <br></br>Pre-Workout, 300 g, Orange</h3>
                       <p>16,99€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
-                    <div>Item 4</div>
+
+                    <div>
+                      <img src="./Images/Supplements/Pre-workout/Pre4.png" alt="" />
+                      <h3>SportLife Nutrition® Pre Workout, <br></br>Watermelon, 250g</h3>
+                      <p>16,99€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                    </div>
+
+                    <div>
+                      <img src="./Images/Supplements/Pre-workout/Pre5.png" alt="" />
+                      <h3>Supermass PreZone <br></br>Orange, 625g</h3>
+                      <p>16,99€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                    </div>
+
+                    <div>
+                      <img src="./Images/Supplements/Pre-workout/Pre6.png" alt="" />
+                      <h3>Leader Performance <br></br>Pre-Workout, 300 g, Aminohappo</h3>
+                      <p>16,99€</p>
+                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                    </div>
                 </Carousel>
                 </div>
             </div>
