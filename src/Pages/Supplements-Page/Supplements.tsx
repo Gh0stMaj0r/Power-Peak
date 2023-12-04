@@ -45,7 +45,7 @@ const Supplements = () => {
                 <img className="logo" src="./Images/Sportlife.png" alt="" />
             </div>
 
-            <div className='pre-supp'>
+            <div className='all-supp'>
                 <h1>Pre-workout</h1>
                 <hr></hr>
                 <div>
@@ -54,47 +54,149 @@ const Supplements = () => {
                       <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre1.png" alt="" />
                       <h3>SportLife Nutrition® Pre Workout, <br></br>Cola, 250 g</h3>
                       <p>19,90€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 
                     <div>
-                      <img src="./Images/Supplements/Pre-workout/Pre2.png" alt="" />
-                      <h3>Supermass PreZone <br></br>Wildberry, 525 g</h3>
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre2.png" alt="" />
+                      <h3>Supermass Nutrition PreZone <br></br>Metsämarja, 525 g</h3>
                       <p>39.90€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 
                     <div>
-                      <img src="./Images/Supplements/Pre-workout/Pre3.png" alt="" />
-                      <h3>Leader Performance <br></br>Pre-Workout, 300 g, Orange</h3>
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre3.png" alt="" />
+                      <h3>Leader Performance <br></br>Pre-Workout, Appelsiini, 300 g</h3>
                       <p>16,99€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 
                     <div>
-                      <img src="./Images/Supplements/Pre-workout/Pre4.png" alt="" />
-                      <h3>SportLife Nutrition® Pre Workout, <br></br>Watermelon, 250g</h3>
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre4.png" alt="" />
+                      <h3>SportLife Nutrition® Pre Workout, <br></br>Vesimeloni, 250g</h3>
                       <p>16,99€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 
                     <div>
-                      <img src="./Images/Supplements/Pre-workout/Pre5.png" alt="" />
-                      <h3>Supermass PreZone <br></br>Orange, 625g</h3>
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre5.png" alt="" />
+                      <h3>Supermass Nutrition PreZone <br></br>Appelsiini, 625g</h3>
                       <p>16,99€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 
                     <div>
-                      <img src="./Images/Supplements/Pre-workout/Pre6.png" alt="" />
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre6.png" alt="" />
                       <h3>Leader Performance <br></br>Pre-Workout, 300 g, Aminohappo</h3>
                       <p>16,99€</p>
-                      <a><button className='shop-button'><CartFill></CartFill></button></a>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
                 </Carousel>
                 </div>
             </div>
+
+            <div className='all-supp'>
+              <h1>Creatiini ja muut ravintolisät</h1>
+              <hr></hr>
+              <div>
+                <Carousel containerClass='carousel' responsive={responsive}>
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Creatine1.png" alt="" />
+                      <h3>SportLife Nutrition® Creatine, <br></br>Kreatiinimonohydraattijauhe, 200 g</h3>
+                      <p>9,29€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Creatine2.png" alt="" />
+                      <h3>Leader Performance <br></br>Creatine Monohydrate, 300 g</h3>
+                      <p>17,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Creatine3.png" alt="" />
+                      <h3>M-Nutrition <br></br>Pure Creatine, 300 g</h3>
+                      <p>19,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Bcaa1.png" alt="" />
+                      <h3>SportLife Nutrition® Bcaa transport <br></br>Vesimeloni & Vadelma, 300 g</h3>
+                      <p>19,95€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Eaa+bcaa.png" alt="" />
+                      <h3>Leader Performance Eaa+Bcaa <br></br>Appelsiini ja Mandariini, 300 g</h3>
+                      <p>16,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Creatine/Bcaa411.png" alt="" />
+                      <h3>M-Nutrition Bcaa 411 <br></br>Persikka, 500 g</h3>
+                      <p>35,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+                </Carousel>
+              </div>
+            </div>
+
+            <div className='all-supp'>
+              <h1>Proteiinijauhe</h1>
+              <hr></hr>
+              <div>
+                <Carousel containerClass='carousel' responsive={responsive}>
+                <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein1.png" alt="" />
+                      <h3>SportLife Nutrition® Whey 80 <br></br>Suklaa, 500 g</h3>
+                      <p>19,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein2.png" alt="" />
+                      <h3>Leader Performance Whey Protein <br></br>Suklaa, 500 g</h3>
+                      <p>12,45€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein3.png" alt="" />
+                      <h3>Supermass Nutrition Super Whey Isolate <br></br>Mustikkapirtelö, 1300 g</h3>
+                      <p>44,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein4.png" alt="" />
+                      <h3>SportLife Nutrition® Whey 100 <br></br>Mansikka & Valkosuklaa, 700 g</h3>
+                      <p>44,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein5.png" alt="" />
+                      <h3>Leader Performance Whey Protein <br></br>Mansikka, 500 g</h3>
+                      <p>12,45€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+
+                  <div>
+                      <img className='carousel-images' src="./Images/Supplements/Protein/Protein6.png" alt="" />
+                      <h3>Supermass Nutrition Super Whey Isolate <br></br>Appelsiini & Suklaa, 1300 g</h3>
+                      <p>34,90€</p>
+                      <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
+                  </div>
+                </Carousel>
+              </div>
+            </div>
         </section>
+
+        <Footer/>
         </>
     )
 }
