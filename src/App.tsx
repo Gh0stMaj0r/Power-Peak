@@ -6,6 +6,7 @@ import Massage from './Pages/Services-Pages/Massage-Page/Massage';
 import Trainer from './Pages/Services-Pages/Trainer-Page/Trainer';
 import Supplements from './Pages/Supplements-Page/Supplements';
 import Prices from "./Pages/Price-list-Page/Prices";
+import Contact from './Pages/Contact-page/Contact';
 
 import {
   BrowserRouter as Router,
@@ -32,6 +33,9 @@ function App() {
         <Route
           path='/hinnasto'
           element={<Prices/>}/>
+        <Route
+          path='/yhteystiedot'
+          element={<Contact/>}/>
       </Routes>
     </Router>
   );

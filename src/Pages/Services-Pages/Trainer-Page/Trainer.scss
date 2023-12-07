@@ -2,15 +2,8 @@ body {
     background-color: #262626;
 }
 
-.personaltrainer {
-    height: 280vh;
-}
-
 .trainer-info {
     color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
     .info-text {
         display: flex;
@@ -32,6 +25,25 @@ body {
 
 .image {
     width: 70vw;
+}
+
+.service-prices2 {
+    color: white;
+    font-size: 40px;
+    height: 90vh;
+
+    .prices-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .price-button {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .trainer-shop {

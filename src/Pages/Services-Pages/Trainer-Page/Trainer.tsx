@@ -35,7 +35,7 @@ const Trainer = () => {
                 <img className="image" src="./Images/Personaltrainer.png" alt="" />
             </div>
 
-            <div className='service-prices'>
+            <div className='service-prices2'>
                 <h1>Hinnat</h1>
                 <hr></hr>
                 <div className='prices-row'>
