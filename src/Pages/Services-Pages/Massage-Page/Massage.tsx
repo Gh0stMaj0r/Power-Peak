@@ -18,7 +18,7 @@ const Massage = () => {
                 <h1>Hieronta</h1>
                 <hr></hr>
                 <div className='massage-text'>
-                    <img className="image" src="./Images/Massage.png" alt="" />
+                    <img className="image" src="./Images/Massage.png" loading="lazy" alt="" />
                     <p className='text-info'>
                         Rentoudu ja palauta lihaksesi Power Peak -salin hieronnassa. 
                         Kokeneet hierojamme tarjoavat räätälöityjä hierontapalveluita, jotka auttavat lieventämään lihasjännitystä, parantamaan liikkuvuutta ja edistämään kokonaisvaltaista hyvinvointia. 

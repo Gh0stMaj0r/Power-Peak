@@ -32,7 +32,7 @@ const Trainer = () => {
             </div>
 
             <div className='trainer-image'>
-                <img className="image" src="./Images/Personaltrainer.png" alt="" />
+                <img className="image" src="./Images/Personaltrainer.png" loading="lazy" alt="" />
             </div>
 
             <div className='service-prices2'>

@@ -22,15 +22,15 @@ const Hero = () => {
                 <hr></hr>
                 <div className="images">
                     <div className="container">
-                        <img className="image" src="./Images/Massage.png" alt="" />
+                        <img className="image" src="./Images/Massage.png" loading="lazy" alt="" />
                         <div className="center"> Hieronta </div>
                     </div>
                     <div className="container">
-                        <img className="image" src="./Images/Personaltrainer.png" alt="" />
+                        <img className="image" src="./Images/Personaltrainer.png" loading="lazy" alt="" />
                         <div className="center"> Personaltrainer </div>
                     </div>
                     <div className="container">
-                        <img className="image" src="./Images/Sauna.png" alt="" />
+                        <img className="image" src="./Images/Sauna.png" loading="lazy" alt="" />
                         <div className="center"> Sauna </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="supp-logos">
-                    <img className="logo" src="./Images/Nutrition.png" alt="" />
-                    <img className="logo" src="./Images/Leader.png" alt="" />
-                    <img className="logo" src="./Images/Sportlife.png" alt="" />
+                    <img className="logo" src="./Images/Nutrition.png" loading="lazy" alt="" />
+                    <img className="logo" src="./Images/Leader.png" loading="lazy" alt="" />
+                    <img className="logo" src="./Images/Sportlife.png" loading="lazy" alt="" />
                 </div>
                 <div className="supp-button">
                     <button className="yellow-button"> Valikoima <ArrowRight></ArrowRight></button>
