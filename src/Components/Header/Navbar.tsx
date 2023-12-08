@@ -19,7 +19,7 @@ const Header = () => {
             <a href="/ravinteet">Lisäravinteet</a>
             <a href="/hinnasto">Hinnasto</a>
             <a href="/yhteystiedot">Yhteystiedot</a>
-            <a><CartFill></CartFill></a>
+            <a href="/ostoskori"><CartFill></CartFill></a>
             </div>
         </div>
     )

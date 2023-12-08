@@ -22,15 +22,15 @@ const Hero = () => {
                 <hr></hr>
                 <div className="images">
                     <div className="container">
-                        <img className="image" src="./Images/Massage.png" loading="lazy" alt="" />
+                        <a href="/hieronta"><img className="image" src="./Images/Massage.png" loading="lazy" alt="" /></a>
                         <div className="center"> Hieronta </div>
                     </div>
                     <div className="container">
-                        <img className="image" src="./Images/Personaltrainer.png" loading="lazy" alt="" />
+                        <a href="/trainer"><img className="image" src="./Images/Personaltrainer.png" loading="lazy" alt="" /></a>
                         <div className="center"> Personaltrainer </div>
                     </div>
                     <div className="container">
-                        <img className="image" src="./Images/Sauna.png" loading="lazy" alt="" />
+                        <a><img className="image" src="./Images/Sauna.png" loading="lazy" alt="" /></a>
                         <div className="center"> Sauna </div>
                     </div>
                 </div>

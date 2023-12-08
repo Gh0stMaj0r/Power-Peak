@@ -7,6 +7,7 @@ import Trainer from './Pages/Services-Pages/Trainer-Page/Trainer';
 import Supplements from './Pages/Supplements-Page/Supplements';
 import Prices from "./Pages/Price-list-Page/Prices";
 import Contact from './Pages/Contact-page/Contact';
+import ShoppingCart from './Pages/ShoppingCart-Page/Shoppingcart';
 
 import {
   BrowserRouter as Router,
@@ -36,6 +37,9 @@ function App() {
         <Route
           path='/yhteystiedot'
           element={<Contact/>}/>
+        <Route
+          path='/ostoskori'
+          element={<ShoppingCart/>}/>
       </Routes>
     </Router>
   );

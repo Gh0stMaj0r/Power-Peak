@@ -25,6 +25,8 @@ p {
 
 .landing {
     background-image: url(../../../public/Images/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Bebas Neue', sans-serif;
     height: 90vh;
     display: flex;
