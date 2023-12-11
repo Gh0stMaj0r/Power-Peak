@@ -6,7 +6,6 @@ import './Supplements.scss'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { CartFill } from 'react-bootstrap-icons';
-import { Link, useNavigate } from 'react-router-dom';
 
 const responsive = {
     superLargeDesktop: {
@@ -29,14 +28,6 @@ const responsive = {
   };
 
 const Supplements = () => {
-  const navigate = useNavigate();
-  const product = {
-    name: "SportLife Nutrition® Pre Workout,",
-    name2: "Cola, 250 g",
-    price: "19.90€",
-    image: "./Images/Supplements/Pre-workout/Pre1.png",
-    // Add more data as needed
-  };
     return (
         
         <>
@@ -60,9 +51,9 @@ const Supplements = () => {
                 <div>
                 <Carousel containerClass='carousel' responsive={responsive}>
                     <div>
-                      <img className='carousel-images' src={product.image} loading="lazy" alt="" />
-                      <h3>{product.name}<br></br>{product.name2}</h3>
-                      <p>{product.price}</p>
+                      <img className='carousel-images' src="./Images/Supplements/Pre-workout/Pre1.png" loading="lazy" alt="" />
+                      <h3>SportLife Nutrition® Pre Workout,<br></br>Cola, 250 g</h3>
+                      <p>19.90€</p>
                         <a href='#!'><button className='shop-button'><CartFill></CartFill></button></a>
                     </div>
 

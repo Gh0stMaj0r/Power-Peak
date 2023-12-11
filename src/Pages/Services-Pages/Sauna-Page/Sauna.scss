@@ -1,0 +1,48 @@
+.sauna-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    .sauna-text {
+        display: flex;
+        flex-direction: row;
+        gap: 8vw;
+        padding: 20px;
+    }
+
+    .image-sauna {
+        width: 40vw;
+    }
+
+    .sauna-info-text {
+        width: 40vw;
+        font-size: 2rem;
+    }
+}
+
+.sauna-benefits {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sauna-benefits-text {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+
+        p {
+            width: 60vw;
+        }
+    }
+
+    .benefits-quote {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 700;
+        width: 60vw;
+    }
+}

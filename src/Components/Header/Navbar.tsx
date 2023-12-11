@@ -13,7 +13,7 @@ const Header = () => {
         <div className="dropdown-content">
             <a href='/hieronta'>Hieronta</a>
             <a href='/trainer'>Personaltrainer</a>
-            <a href='!#'>Sauna</a>
+            <a href='/sauna'>Sauna</a>
             </div>
         </div>
             <a href="/ravinteet">Lisäravinteet</a>
