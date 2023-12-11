@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import { CartFill } from 'react-bootstrap-icons'
+import { slide as Menu } from 'react-burger-menu'
 import './Navbar.scss'
 
 const Header = () => {
@@ -20,6 +21,14 @@ const Header = () => {
             <a href="/hinnasto">Hinnasto</a>
             <a href="/yhteystiedot">Yhteystiedot</a>
             <a href="/ostoskori"><CartFill></CartFill></a>
+            <Menu isOpen={true} width={ '300px' } right>
+                <a id="massage" className="menu-item" href="/hieronta">Hieronta</a>
+                <a id="trainer" className="menu-item" href="/trainer">Personaltrainer</a>
+                <a id="sauna" className="menu-item" href="/sauna">Sauna</a>
+                <a id="supp" className="menu-item" href="/ravinteet">Lisäravinteet</a>
+                <a id="price" className="menu-item" href="/hinnasto">Hinnasto</a>
+                <a id="contact" className="menu-item" href="/yhteystiedot">Yhteystiedot</a>
+            </Menu>
             </div>
         </div>
     )
