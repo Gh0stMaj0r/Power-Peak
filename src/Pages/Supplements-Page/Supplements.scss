@@ -2,6 +2,7 @@
     background-image: url(../../../public/Images/Supplement.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: white;
     height: 90vh;
     display: flex;
@@ -55,7 +56,6 @@
 
 .all-supp {
     color: white;
-    height: 100vh;
 }
 
 .shop-button {
@@ -65,4 +65,19 @@
     border: 3px solid black;
     border-radius: 10px;
     background-color: #ffff00;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .supplements-logos {
+        flex-direction: column;
+
+        .logo {
+            width: 80vw;
+        }
+    }
+
+    .shop-button {
+        width: 15vw;
+    }
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { CartFill } from 'react-bootstrap-icons'
 import { slide as Menu } from 'react-burger-menu'
@@ -9,19 +9,22 @@ const Header = () => {
         <div className="header">
             <a className='logo-link' href='/'><img className='logo' src="./Images/PowerPeak.png" alt="" /></a>
         <div className="header-right">
-        <div className="dropdown">
-            <a className="dropbtn">Palvelut</a>
-        <div className="dropdown-content">
-            <a href='/hieronta'>Hieronta</a>
-            <a href='/trainer'>Personaltrainer</a>
-            <a href='/sauna'>Sauna</a>
+            <div className='right-navlinks'>
+                <div className="dropdown">
+                    <a className="dropbtn">Palvelut</a>
+                <div className="dropdown-content">
+                    <a href='/hieronta'>Hieronta</a>
+                    <a href='/trainer'>Personaltrainer</a>
+                    <a href='/sauna'>Sauna</a>
+                </div>
             </div>
-        </div>
-            <a href="/ravinteet">Lisäravinteet</a>
-            <a href="/hinnasto">Hinnasto</a>
-            <a href="/yhteystiedot">Yhteystiedot</a>
-            <a href="/ostoskori"><CartFill></CartFill></a>
-            <Menu isOpen={true} width={ '300px' } right>
+                <a href="/ravinteet">Lisäravinteet</a>
+                <a href="/hinnasto">Hinnasto</a>
+                <a href="/yhteystiedot">Yhteystiedot</a>
+                <a href="/ostoskori"><CartFill></CartFill></a>
+            </div>
+
+            <Menu isOpen={false} width={ '300px' } right>
                 <a id="massage" className="menu-item" href="/hieronta">Hieronta</a>
                 <a id="trainer" className="menu-item" href="/trainer">Personaltrainer</a>
                 <a id="sauna" className="menu-item" href="/sauna">Sauna</a>

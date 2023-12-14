@@ -46,3 +46,32 @@
         width: 60vw;
     }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sauna-info {
+        .sauna-text {
+            flex-direction: column;
+        }
+
+        .image-sauna {
+            width: 70vw;
+        }
+
+        .sauna-info-text {
+            width: 80vw;
+            font-size: 1.5rem;
+        }
+    }
+
+    .sauna-benefits {
+        .sauna-benefits-text {
+            font-size: 1.5rem;
+        }
+
+        .benefits-quote {
+            width: 80vw;
+            font-size: 2rem;
+        }
+    }
+}

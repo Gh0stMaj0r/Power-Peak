@@ -2,11 +2,15 @@
 .header {
     overflow: hidden;
     background-color: #262626;
-    padding: 5px 50px;
+    padding: 2px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    -webkit-box-shadow: 0px 10px 5px -1px rgba(255,255,0,1);
+    -moz-box-shadow: 0px 10px 5px -1px rgba(255,255,0,1);
+    box-shadow: 0px 5px 5px -1px rgba(255,255,0,1);
 
     .logo {
       width: 15vw;
@@ -37,6 +41,12 @@
   
   /* Float the link section to the right */
   .header-right {
+    float: right;
+    display: flex;
+    gap: 2vw;
+  }
+
+  .right-navlinks {
     float: right;
     display: flex;
     gap: 2vw;
@@ -80,11 +90,10 @@
 
   /* Position and sizing of burger button */
 .bm-burger-button {
+  display: none;
   position:relative;
   width: 36px;
   height: 30px;
-  left: 18px;
-  top: 18px;
 }
 
 /* Color/shape of burger icon bars */
@@ -123,6 +132,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: #262626;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  overflow-y: hidden;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -146,15 +156,26 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .header-right {
-      float: none;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 2px 30px;
+
+    .logo {
+      width: 45vw;
     }
   }
+  
+  .dropdown {
+    display: none;
+  }
+  
+  .right-navlinks {
+    display: none;
+  }
+  
+  .bm-burger-button{
+    display: block;
+  }
+}

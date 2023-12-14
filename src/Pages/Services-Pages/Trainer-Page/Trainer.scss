@@ -30,7 +30,6 @@ body {
 .service-prices2 {
     color: white;
     font-size: 40px;
-    height: 90vh;
 
     .prices-row {
         display: flex;
@@ -54,4 +53,25 @@ body {
 
 .trainer-shop-text {
     width: 60vw;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .trainer-info {
+        .info-text {
+            font-size: 1.5rem;
+        }
+        
+        .trainer-text {
+            width: 80vw;
+        }
+    }
+
+    .service-prices2 {
+        font-size: 1.5rem;
+    }
+
+    .trainer-shop-text {
+        width: 80vw;
+    }
 }

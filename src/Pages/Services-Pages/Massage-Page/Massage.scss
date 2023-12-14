@@ -14,6 +14,9 @@ p {
 
 .massage-background {
     background-image: url(../../../../public/Images/Massage-background2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -24,7 +27,6 @@ p {
     flex-direction: column;
     background-color: #262626;
     color: white;
-    height: 80vh;
 
     .massage-text {
         display: flex;
@@ -45,7 +47,6 @@ p {
 
 .massage-benefits {
     color: white;
-    height: 160vh;
 
     .benefits-text {
         display: flex;
@@ -61,7 +62,6 @@ p {
 .service-prices {
     color: white;
     font-size: 40px;
-    height: 80vh;
 
     .prices-row {
         display: flex;
@@ -74,5 +74,34 @@ p {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .massage-info {
+        .massage-text {
+            flex-direction: column;
+            align-items: center;
+
+            .image {
+                width: 70vw;
+            }
+        }
+
+        .text-info {
+            width: 80vw;
+            font-size: 1.5rem;
+        }
+    }
+
+    .benefits-text {
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    .price-button {
+        text-align: center;
     }
 }
