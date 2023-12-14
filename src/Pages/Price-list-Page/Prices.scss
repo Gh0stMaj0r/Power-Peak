@@ -11,8 +11,8 @@
 /* styles.css */
 
 .H_Header {
-  background-color: #282c34;
-  min-height: 10vh;
+  background-color: #262626;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,39 +22,25 @@
   color: white;
 }
 
-.Header-text {
-  display: inline-block;
-  position: relative;
-  margin-bottom: 0;
-}
-
-.underline {
-  position: relative;
-  left: 0;
-  height: 2px; /* Adjust the thickness of the underline */
-  width: 50%;
-  background-color: #FFFF00;
-}
-
 .H-Body {
-  background-color: #282c34;
-  height: 400vh;
+  background-color: #262626;
+  height: 480vh;
 }
 
 .otsikko {
   color: #FFFF00;
-  margin-left: 53vh;
+
 }
 
 .tuote {
   color: white;
-  margin-left: 53vh;
+  margin-left: 35vh;
   font-size: 4vh;
   font-family: Playfair Display;
 }
 
 .paikka {
-  margin-left: 53vh;
+
   margin-top: 2vh;
 }
 
@@ -158,17 +144,48 @@ h1{
 color: white;
 font-family: Playfair Display;
 }
-.price-list-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.price-list {
+  background-color: #262626;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 10vh;
+
+  .price-list-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .yellow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #ffff00;
+    padding: 12px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+  }
 }
-.yellow-button{
-  font-size: 2vh;
+
+p {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  width: 28vw;
+  text-align: center;
+  font-size: 1.8rem;
+  transform: translate(0, -2vh);
 }
-.nappi{
-  font-size: 2vh;
-  font-family: Playfair Display;
-  border: 0;
+.underline2 {
+  position: relative;
+
+  left: 0;
+  height: 2px; /* Adjust the thickness of the underline */
+  width: 50%;
+  background-color: #FFFF00;
 }
