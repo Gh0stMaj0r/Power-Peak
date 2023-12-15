@@ -98,7 +98,7 @@ const Contact = () => {
         <Header/>
         
         <h1>yhteystiedot</h1>
-        <div className='underline'></div> 
+        <hr></hr>
         <p className='text'>
           Power Peak Fitness Center on innovatiivinen kuntosali, 
           joka tarjoaa monipuolisia palveluita 
@@ -116,7 +116,8 @@ const Contact = () => {
         <br></br><br></br><br></br>
         <h1>Tule meidän <br></br>
         kanssa kohti terveellisempää tulevaisuutta</h1>
-        <div className='underline'></div>   
+        <hr></hr>
+        <div className='form-contact'>
         <div className='icons'>
           <div className='dmap'>
             <GeoAltFill className='map'></GeoAltFill> <p className='tiedot'>osoite</p>
@@ -130,6 +131,7 @@ const Contact = () => {
         </div>
         <div className='forms'>
         <ContactForm />
+        </div>
         </div>
       </div>
       <Footer/>

@@ -12,7 +12,7 @@ const Hinnat = () => {
     <div className='H-Body'>
       <header className="H_Header">
         <h1 className='Header-text'>Hinnasto</h1>
-        <div className='underline2'></div>
+        <hr></hr>
       </header>
       <div className='Paikka'>
       <h1 className='otsikko'>JÄSENYYDET</h1>
@@ -114,7 +114,7 @@ const Hinnat = () => {
 </div>
 <div className='price-list'>
 <div className="price-list-button">
-  <p>*Tarkemman hinnaston näet</p>
+  <p className='nt'>*Tarkemman hinnaston näet</p>
   <a className="button-link" href="/ostoskori">
   <button className="yellow-button">Täältä <ArrowRight></ArrowRight></button>
  </a>

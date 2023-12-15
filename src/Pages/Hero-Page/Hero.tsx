@@ -22,7 +22,7 @@ const Hero = () => {
                 <hr></hr>
                 <div className="images">
                     <div className="container">
-                        <a href="/hieronta"><img className="image" src="./Images/Massage.png" loading="lazy" alt="" /></a>
+                        <a href="/hieronta"><img className="image" src="./Images/Massage.png" loading="lazy" alt=""/></a>
                         <div className="center"> Hieronta </div>
                     </div>
                     <div className="container">
@@ -55,7 +55,9 @@ const Hero = () => {
                     <img className="logo" src="./Images/Sportlife.png" loading="lazy" alt="" />
                 </div>
                 <div className="supp-button">
-                    <button className="yellow-button"> Valikoima <ArrowRight></ArrowRight></button>
+                    <a className="button-link" href="/ravinteet">
+                        <button className="yellow-button"> Valikoima <ArrowRight></ArrowRight></button>
+                    </a>
                 </div>
             </div>
 

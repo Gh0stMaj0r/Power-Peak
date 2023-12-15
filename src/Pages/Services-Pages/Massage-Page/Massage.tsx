@@ -11,9 +11,6 @@ const Massage = () => {
         <Header/>
 
         <section className='massage'>
-            <div className='massage-background'>
-            </div>
-
             <div className='massage-info'>
                 <h1>Hieronta</h1>
                 <hr></hr>
@@ -47,6 +44,7 @@ const Massage = () => {
                     6. Immuunijärjestelmän tuki: Hieronta voi auttaa vahvistamaan immuunijärjestelmää, mikä tekee kehosta vastustuskykyisemmän sairauksille.<br></br><br></br>
 
                     Tämä kaikki yhdessä tekee hieronnasta tehokkaan lisän terveys- ja kunto-ohjelmaan, tarjoten monipuolisia etuja kehollesi.</p>
+                    <img className='massage-image' src="./Images/Massage-background2.png" alt="" />
                 </div>
             </div>
 

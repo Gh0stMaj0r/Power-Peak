@@ -24,12 +24,10 @@
 
 .H-Body {
   background-color: #262626;
-  height: 480vh;
 }
 
 .otsikko {
   color: #FFFF00;
-
 }
 
 .tuote {
@@ -173,19 +171,11 @@ font-family: Playfair Display;
   }
 }
 
-p {
+.nt {
   font-family: 'Playfair Display', serif;
   color: white;
   width: 28vw;
   text-align: center;
   font-size: 1.8rem;
   transform: translate(0, -2vh);
-}
-.underline2 {
-  position: relative;
-
-  left: 0;
-  height: 2px; /* Adjust the thickness of the underline */
-  width: 50%;
-  background-color: #FFFF00;
 }

@@ -82,11 +82,11 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #ffff00;}
   
   .dropdown:hover .dropdown-content {display: flex; flex-direction: column; margin-top: 5vh;}
   
-  .dropdown:hover .dropbtn {background-color: #ffff00;}
+  .dropdown:hover .dropbtn {background-color: #ffff00; color: black;}
 
   /* Position and sizing of burger button */
 .bm-burger-button {

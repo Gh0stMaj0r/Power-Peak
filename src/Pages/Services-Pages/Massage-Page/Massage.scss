@@ -12,14 +12,6 @@ p {
     background-color: #262626;
 }
 
-.massage-background {
-    background-image: url(../../../../public/Images/Massage-background2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
 .massage-info {
     display: flex;
     justify-content: center;
@@ -51,11 +43,18 @@ p {
     .benefits-text {
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
         font-size: 40px;
 
         p {
             width: 60vw;
         }
+    }
+
+    .massage-image {
+        width: 60vw;
+        border-radius: 15px;
     }
 }
 
