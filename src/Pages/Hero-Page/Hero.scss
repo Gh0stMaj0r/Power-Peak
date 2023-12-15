@@ -31,7 +31,7 @@ p {
     background-image: url(../../../public/Images/Hero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     font-family: 'Bebas Neue', sans-serif;
     display: flex;
     justify-content: center;
@@ -204,10 +204,13 @@ p {
             font-size: 4rem;
         }
     }
+
+    .hero-home {
+        overflow-x: hidden;
+    }
     
     .landing {
         background-size: cover;
-        height: auto;
 
         h1 {
             font-size: 4rem;

@@ -94,9 +94,9 @@ const ContactForm = () => {
 const Contact = () => {
   return (
     <>
+      <Header/>
+
       <div className='body'>
-        <Header/>
-        
         <h1>yhteystiedot</h1>
         <hr></hr>
         <p className='text'>
