@@ -30,7 +30,7 @@ const Hero = () => {
                         <div className="center"> Personaltrainer </div>
                     </div>
                     <div className="container">
-                        <a><img className="image" src="./Images/Sauna.png" loading="lazy" alt="" /></a>
+                        <a href="/sauna"><img className="image" src="./Images/Sauna.png" loading="lazy" alt="" /></a>
                         <div className="center"> Sauna </div>
                     </div>
                 </div>

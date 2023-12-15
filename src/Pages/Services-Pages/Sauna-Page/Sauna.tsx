@@ -1,6 +1,8 @@
 import React from "react";
 
+import { ArrowRight } from "react-bootstrap-icons";
 import Header from "../../../Components/Header/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 import './Sauna.scss'
 
 const Sauna = () => {
@@ -45,7 +47,25 @@ const Sauna = () => {
                     Tule nauttimaan saunaelämyksestä osana Power Peak -jäsenyyttäsi ja antamaan kehollesi tilaisuus palautua parhaalla mahdollisella tavalla.
                 </h3>
             </div>
+
+            <div className='service-prices'>
+                <h1>Hinnat</h1>
+                <hr></hr>
+                <h3 className="price-list">
+                    Sauna mahdollisuus vain salijäsenille, ei mahdollisuutta kertakäyntiin.<br></br><br></br>
+                    Pääset nauttimaan saunan lämmöstä liittymällä meidän jäseneksi<br></br>
+                    Nyt vain 40€ kuukausihintaan.
+                </h3>
+                <div className='price-button'>
+                    <p>*Tarkemman hinnaston näet</p>
+                    <a className='button-link' href='/hinnasto'>
+                        <button className='yellow-button'>Täältä<ArrowRight></ArrowRight></button>
+                    </a>
+                </div>
+            </div>
         </section>
+
+        <Footer/>
         </>
     )
 }

@@ -25,7 +25,7 @@ const Footer = () => {
                     <div className='contact-column'>
                         <p>📩 powerpeak@gmail.com</p>
                         <p>☎️ 040-8527345</p>
-                        <p>📍 Osoite</p>
+                        <p>📍 Kotkantie 2a, 90250 Oulu</p>
                     </div>
                 </div>
             </div>
