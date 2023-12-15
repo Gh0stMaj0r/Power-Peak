@@ -1,39 +1,28 @@
-.Prices {
-  text-align: center;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
+
 
 /* styles.css */
 
-.H_Header {
-  background-color: #262626;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 5vh;
-  font-family: 'Bebas Neue';
-  color: white;
-}
 
 .H-Body {
   background-color: #262626;
-  margin-top: 15vh;
 }
 
 .otsikko {
   color: #FFFF00;
+  
 }
-
+.ala-otsikko{
+  color: #FFFF00;
+  display: flex;
+  padding-left: 24vw;
+ }
 .tuote {
   color: white;
-  margin-left: 35vh;
+  display: flex;
+  justify-content: left;
   font-size: 4vh;
   font-family: Playfair Display;
 }
@@ -48,39 +37,46 @@
   flex-direction: column;
 }
 
-.container {
+.container2 {
   display: flex;
+  justify-content: center;
+  gap: 40vw;
   margin-top: 2vh;
-}
+  font-size: 5vh;
 
-.hinta1, .hinta2, .hinta3, .PRhinta, .PRhinta2, .tuote, .PRhinta3,.TRhinta,.TRhinta2,.TRhinta3,.RMhinta, .RMhinta2,.Hhinta, .PRp,.RMp,.Maksu{
+}
+.PRp,.RMp,.Maksu{
   font-size: 5vh;
   display: flex;
 }
-h1{
-  font-size: 7vh;
-  top: 1vh;
-}
+
+/*jäseenyydet*/
 .hinta1{
-  margin-left: 93vh; /* Adjust this value as needed */
+  display: flex;
+  justify-content: right;
   color: white;
-  float: right;
   font-family: Playfair Display;
 }
 .hinta2 {
-  margin-left: 90vh; /* Adjust this value as needed */
+  
   color: white;
   float: right;
   font-family: Playfair Display;
 }
 
 .hinta3 {
-  margin-left: 76vh; /* Adjust this value as needed */
+  margin-left: 21vh; /* Adjust this value as needed */
+  color: white;
+  font-family: Playfair Display;
+}
+/*personaltrainer*/
+.PRhintaF{
+  margin-left: 36vh; /* Adjust this value as needed */
   color: white;
   font-family: Playfair Display;
 }
 .PRhinta{
-  margin-left: 96vh; /* Adjust this value as needed */
+  margin-left: 36vh; /* Adjust this value as needed */
   color: white;
   font-family: Playfair Display;
 }
@@ -97,19 +93,10 @@ h1{
 .PRp, .RMp{
   color:white;
   text-align-last: center;
-  margin-left: 40vh;
-  margin-right: 25vh;
   display: flex;
+  padding: 0 20vw 0 20vw;
 }
-.Maksu{
-  color: white;
-  text-align-last: center;
-  margin-left: 25vh;
-  margin-right: 25vh;
-}
-.personaltrainer{
-  margin-top: 10vh;
-}
+
 .TRhinta{
   margin-top: 3vh;
     margin-left: 41vh; /* Adjust this value as needed */
