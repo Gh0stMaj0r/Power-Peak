@@ -9,6 +9,10 @@ import Supplements from './Pages/Supplements-Page/Supplements';
 import Prices from "./Pages/Price-list-Page/Prices";
 import Contact from './Pages/Contact-page/Contact';
 import ShoppingCart from './Pages/ShoppingCart-Page/Shoppingcart';
+import Terms from './Pages/Policies-Page/Terms/Terms';
+import Privacy from './Pages/Policies-Page/Privacy/Privacy';
+import Legal from './Pages/Policies-Page/Legal/Legal';
+import Eula from './Pages/Policies-Page/Eula/Eula';
 
 import {
   BrowserRouter as Router,
@@ -44,6 +48,18 @@ function App() {
         <Route
           path='/ostoskori'
           element={<ShoppingCart/>}/>
+        <Route
+          path='/käyttöehdot'
+          element={<Terms/>}/>
+        <Route
+          path='/tietosuoja'
+          element={<Privacy/>}/>
+        <Route
+          path='/oikeustiedot'
+          element={<Legal/>}/>
+        <Route
+          path='/Eula'
+          element={<Eula/>}/>
       </Routes>
     </Router>
   );

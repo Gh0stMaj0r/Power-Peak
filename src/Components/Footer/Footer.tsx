@@ -10,10 +10,21 @@ const Footer = () => {
                 <h3>Linkit</h3>
                 <hr className='hr-footer'></hr>
                 <div className='links'>
-                    <a href='#palvelut'>Palvelut</a>
-                    <a href='#ravinteet'>Lisäravinteet</a>
-                    <a href='#hinnasto'>Hinnasto</a>
-                    <a href='#yhteystiedot'>Palvelut</a>
+                    <a href='/palvelut'>Palvelut</a>
+                    <a href='/ravinteet'>Lisäravinteet</a>
+                    <a href='/hinnasto'>Hinnasto</a>
+                    <a href='/yhteystiedot'>Palvelut</a>
+                </div>
+            </div>
+
+            <div className='footer-links'>
+                <h3>Ehdot</h3>
+                <hr className='hr-footer'></hr>
+                <div className='links'>
+                    <a href='/käyttöehdot'>Käyttöehdot</a>
+                    <a href='/tietosuoja'>Tietosuojakäytäntö</a>
+                    <a href='/oikeustiedot'>Oikeudelliset tiedot</a>
+                    <a href='/Eula'>EULA</a>
                 </div>
             </div>
 

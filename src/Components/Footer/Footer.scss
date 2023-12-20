@@ -10,7 +10,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-content: center;
-    gap: 15vw;
+    gap: 10vw;
     padding: 20px;
 }
 
@@ -78,7 +78,7 @@ h3 {
 @media only screen and (max-width: 600px) {
     .footer {
         flex-direction: column;
-        height: 125vh;
+        height: 165vh;
     }
 
     .social-links {
