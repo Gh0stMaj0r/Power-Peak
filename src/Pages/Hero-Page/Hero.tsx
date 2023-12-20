@@ -4,12 +4,13 @@ import './Hero.scss';
 import Header from "../../Components/Header/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import { ArrowRight } from "react-bootstrap-icons";
+import CookieBanner from "../../Components/Cookies/Cookies";
 
 const Hero = () => {
     return (
         <>
         <Header/>
-
+        <CookieBanner/>
         <section className="hero-home">
             <div className="landing">
                 <h1>"No pain no gain"</h1>

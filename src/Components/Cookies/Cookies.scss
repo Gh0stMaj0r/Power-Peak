@@ -1,0 +1,56 @@
+@keyframes cookieanimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    background-color: #262626;
+    color: white;
+    border: 2px solid #ffff00;
+    padding: 20px;
+    box-shadow: 0px -1px 5px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    animation: 1.0s cookieanimation;
+
+    p {
+        width: 20vw;
+    }
+  }
+
+  .cookie-buttons {
+    display: flex;
+    gap: 1vw;
+    .cookie-accept {
+        padding: 10px;
+        background-color: #ffff00;
+        border-radius: 5px;
+        border: 2px solid black;
+        cursor: pointer;
+    }
+
+    .cookie-accept:hover {
+        opacity: 0.75;
+    }
+
+    .cookie-reject {
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid #ffff00;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+
+    .cookie-reject:hover {
+        opacity: 0.75;
+    }
+  }
