@@ -9,10 +9,14 @@ import Supplements from './Pages/Supplements-Page/Supplements';
 import Prices from "./Pages/Price-list-Page/Prices";
 import Contact from './Pages/Contact-page/Contact';
 import ShoppingCart from './Pages/ShoppingCart-Page/Shoppingcart';
+<<<<<<< Updated upstream
 import Terms from './Pages/Policies-Page/Terms/Terms';
 import Privacy from './Pages/Policies-Page/Privacy/Privacy';
 import Legal from './Pages/Policies-Page/Legal/Legal';
 import Eula from './Pages/Policies-Page/Eula/Eula';
+=======
+import Form from './Pages/Form-page/Form';
+>>>>>>> Stashed changes
 
 import {
   BrowserRouter as Router,
@@ -49,6 +53,7 @@ function App() {
           path='/ostoskori'
           element={<ShoppingCart/>}/>
         <Route
+<<<<<<< Updated upstream
           path='/käyttöehdot'
           element={<Terms/>}/>
         <Route
@@ -60,6 +65,10 @@ function App() {
         <Route
           path='/Eula'
           element={<Eula/>}/>
+=======
+          path='/form'
+          element={<Form/>}/>
+>>>>>>> Stashed changes
       </Routes>
     </Router>
   );

@@ -11,11 +11,13 @@ const Hinnat = () => {
 
     <div className='H-Body'>
       <header className="H_Header">
-        <h1 className='Header-text'>Hinnasto</h1>
+        <br></br>
+        <h1>Hinnasto</h1>
         <hr></hr>
       </header>
       <div className='Paikka'>
       <h1 className='otsikko'>JÄSENYYDET</h1>
+      <hr></hr>
       <div className="container2">
       <table>
   <tr>
@@ -37,6 +39,7 @@ const Hinnat = () => {
 
 <div className='personaltrainer'>
 <h1 className='otsikko'>PERSONALTRAINER</h1>
+<hr></hr>
 
 <div className="container2">
       <table>
@@ -61,6 +64,7 @@ const Hinnat = () => {
    </div>
    <div className='personaltrainer'>
 <h1 className='otsikko'>TREENIOHJELMA</h1>
+<hr></hr>
 
 <div className="container2">
       <table>
@@ -81,6 +85,7 @@ const Hinnat = () => {
 </div>
 <div className='personaltrainer'>
 <h1 className='otsikko'>RAVITSEMUSOHJELMA</h1>
+<hr></hr>
 
 <div className="container2">
       <table>
@@ -101,6 +106,7 @@ const Hinnat = () => {
 </div>
 <div className='personaltrainer'>
 <h1 className='otsikko'>HIERONTA</h1>
+<hr></hr>
 
 <div className="container2">
       <table>
@@ -116,13 +122,14 @@ const Hinnat = () => {
     <td className="tuote-hinta">75min</td>
     <td className='tuoteen-hinta'>75€</td>
   </tr>
+  <hr></hr>
 </table>
 </div>
 
 <div className='price-list'>
 <div className="price-list-button">
   <p className='nt'>*Tarkemman hinnaston näet</p>
-  <a className="button-link" href="/ostoskori">
+  <a className="button-link" href="/form">
   <button className="yellow-button">Täältä <ArrowRight></ArrowRight></button>
  </a>
 </div>

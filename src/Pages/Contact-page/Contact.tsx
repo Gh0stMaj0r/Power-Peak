@@ -2,94 +2,8 @@ import './Contact.scss';
 import Header from "../../Components/Header/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import { GeoAltFill, EnvelopeAtFill, PhoneFill } from 'react-bootstrap-icons';
-import React, { useState, ChangeEvent } from 'react';
+import { ArrowRight } from "react-bootstrap-icons";
 
-interface FormData {
-  firstName: string;
-  lastName: string;
-  email: string;
-  phoneNumber: string;
-  comment: string;
-}
-
-const ContactForm = () => {
-  const [formData, setFormData] = useState<FormData>({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phoneNumber: '',
-    comment: '',
-  });
-
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Handle form submission logic here (e.g., send data to server)
-    console.log('Form data submitted:', formData);
-  };
-
-  return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="firstName" className='Fname'>First Name:</label>
-        <input
-          type="text"
-          id="firstName"
-          name="firstName"
-          value={formData.firstName}
-          onChange={handleChange}
-          required
-        />
-
-        <label htmlFor="lastName"className='Lname'>Last Name:</label>
-        <input
-          type="text"
-          id="lastName"
-          name="lastName"
-          value={formData.lastName}
-          onChange={handleChange}
-          required
-        />
-
-        <label htmlFor="email" className='email'>Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-
-        <label htmlFor="phoneNumber" className='Pnum'>Phone Number:</label>
-        <input
-          type="tel"
-          id="phoneNumber"
-          name="phoneNumber"
-          value={formData.phoneNumber}
-          onChange={handleChange}
-          required
-        />
-
-        <label htmlFor="comment" className='Comm'>Comment:</label>
-        <textarea
-          id="comment"
-          name="comment"
-          rows={4} // Convert to a number
-          value={formData.comment}
-          onChange={handleChange}
-          required
-        ></textarea>
-
-        <button type="submit" className='Subm'>Submit</button>
-      </form>
-    </div>
-  );
-};
 
 const Contact = () => {
   return (
@@ -97,7 +11,7 @@ const Contact = () => {
       <Header/>
 
       <div className='body'>
-        <h1>yhteystiedot</h1>
+        <h1 className='Hinta-Header'>yhteystiedot</h1>
         <hr></hr>
         <p className='text'>
           Power Peak Fitness Center on innovatiivinen kuntosali, 
@@ -114,7 +28,7 @@ const Contact = () => {
           terveellisempää elämäntapaa.
         </p>
         <br></br><br></br><br></br>
-        <h1>Tule meidän <br></br>
+        <h1 className='Hinta-Header'>Tule meidän <br></br>
         kanssa kohti terveellisempää tulevaisuutta</h1>
         <hr></hr>
         <div className='form-contact'>
@@ -130,17 +44,35 @@ const Contact = () => {
           </div>
         </div>
         <div className='forms'>
-          <form className='form-us'>
-            <h1>Ota meihin yhteyttä</h1>
-            <input type="text" name='etunimi' placeholder='etunimi' />
-            <input type="text"name='sukunimi' placeholder='sukunimi'/>
-            <input type="email" name='email' placeholder='email'/>
-            <input type="phone" name='phone' placeholder='puhelinnumero'/>
-            <textarea name="message" id="" cols={30} rows={10} placeholder='kirjoita viesti'></textarea>
-            <button type='submit'>submit</button>
-          </form>
-
-        </div>
+  <form>
+    <h1 className='Hinta-Header'>Ota meihin yhteyttä</h1>
+    <div className='form-nimet'>
+      <div className='form-nimi'>
+        <input type="text" name='etunimi' placeholder='etunimi' />
+      </div>
+      <div className='form-nimi2'>
+        <input type="text" name='sukunimi' placeholder='sukunimi'/>
+      </div>
+    </div>
+    <input type="email" name='email' placeholder='email'/>
+    <input type="phone" name='phone' placeholder='puhelinnumero'/>
+    <textarea name="message" id="message" cols={30} rows={10} placeholder='kirjoita viesti'></textarea>
+    <div className='con-price-list'>
+<div className="con-price-list-button">
+  <a className="button-link" href="/ostoskori">
+    <div className='form-napit'>
+    <div className='tyhjennä'>
+  <button type='submit' className="con-yellow-button">Lähetä </button>
+  </div>
+  <div className='lähetä'>
+    <button type='reset' className="con-yellow-button">Tyhjennä</button>
+    </div>
+    </div>
+ </a>
+</div>
+</div>
+  </form>
+</div>
         </div>
       </div>
       <Footer/>
