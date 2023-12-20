@@ -45,19 +45,19 @@
 .dmap,.dmail,.dphone{
     width:30vw;
 }
-form{
-    float:right ;
-    color: #ffffff;
-    font-size: 4vh;
-}
+
 input{
     font-size: 4vh;
 }
-.forms{
-    float: right;
-    height: 30vh;
-    width: 40vw;
-}
+
 .fname{
     font-size: 4vh;
+}
+form{
+    display: block;
+
+}
+form, input, textarea{
+    display: flex;
+    flex-direction: column;
 }

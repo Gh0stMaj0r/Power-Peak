@@ -130,7 +130,16 @@ const Contact = () => {
           </div>
         </div>
         <div className='forms'>
-        <ContactForm />
+          <form className='form-us'>
+            <h1>Ota meihin yhteyttä</h1>
+            <input type="text" name='etunimi' placeholder='etunimi' />
+            <input type="text"name='sukunimi' placeholder='sukunimi'/>
+            <input type="email" name='email' placeholder='email'/>
+            <input type="phone" name='phone' placeholder='puhelinnumero'/>
+            <textarea name="message" id="" cols={30} rows={10} placeholder='kirjoita viesti'></textarea>
+            <button type='submit'>submit</button>
+          </form>
+
         </div>
         </div>
       </div>

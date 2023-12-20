@@ -26,9 +26,10 @@
   font-size: 4vh;
   font-family: Playfair Display;
 }
-
+.tuote-hinta{
+  text-align: left;
+}
 .paikka {
-
   margin-top: 2vh;
 }
 .yellow-button
@@ -40,15 +41,26 @@
 .container2 {
   display: flex;
   justify-content: center;
-  gap: 40vw;
   margin-top: 2vh;
   font-size: 5vh;
 
+  tr{
+    display: flex;
+  justify-content: space-between;
+  width: 50vw;
+  top: 4vh;
+  }
+  td {
+    color: white;
+    margin-top: 4vh;
+  }
 }
-.PRp,.RMp,.Maksu{
+.RMp,.Maksu{
   font-size: 5vh;
   display: flex;
+  justify-content: center;
 }
+
 
 /*jäseenyydet*/
 .hinta1{
@@ -92,9 +104,17 @@
 }
 .PRp, .RMp{
   color:white;
-  text-align-last: center;
+  font-size: 5vh;
   display: flex;
-  padding: 0 20vw 0 20vw;
+  justify-content: center;
+  text-align: center;
+
+}
+.price-texts{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10vw 0 10vw; 
 }
 
 .TRhinta{
