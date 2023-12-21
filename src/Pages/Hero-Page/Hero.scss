@@ -185,7 +185,12 @@ p {
     }
 }
 
-@media only screen and (min-width: 768px) {
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1440px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
     .landing {
         p {
             width: 60vw;
@@ -356,12 +361,16 @@ p {
     .price-list {
         padding: 20px;
 
+        h2 {
+            font-size: 3rem;
+        }
+
         .program {
             width: 10vw;
         }
 
         .progg-price {
-            margin-top: 12vh;
+            margin-top: 14vh;
         }
     }
 }

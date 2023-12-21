@@ -160,7 +160,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .header {
     padding: 2px 30px;
 

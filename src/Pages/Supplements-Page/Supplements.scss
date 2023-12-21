@@ -68,7 +68,7 @@
     background-color: #ffff00;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .supplements-logos {
         flex-direction: column;
 
@@ -96,5 +96,17 @@
 
     .shop-button {
         width: 15vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .carousel-images {
+        width: 80vw;
     }
 }

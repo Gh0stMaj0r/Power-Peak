@@ -81,7 +81,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .massage-info {
         .massage-text {
             flex-direction: column;
