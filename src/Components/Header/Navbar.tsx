@@ -6,6 +6,7 @@ import './Navbar.scss'
 
 const Header = () => {
     return (
+        //Navbar
         <div className="header">
             <a className='logo-link' href='/'><img className='logo' src="./Images/PowerPeak.png" alt="" /></a>
         <div className="header-right">
@@ -23,7 +24,7 @@ const Header = () => {
                 <a href="/yhteystiedot">Yhteystiedot</a>
                 <a href="/ostoskori"><CartFill></CartFill></a>
             </div>
-
+            {/* Hamburgerbutton */}
             <Menu isOpen={false} width={ '300px' } right>
                 <a id="massage" className="menu-item" href="/hieronta">Hieronta</a>
                 <a id="trainer" className="menu-item" href="/trainer">Personaltrainer</a>

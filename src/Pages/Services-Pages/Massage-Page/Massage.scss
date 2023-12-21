@@ -9,6 +9,7 @@ p {
     font-family: 'Playfair Display', serif;
 }
 
+//Massage
 .massage {
     background-color: #262626;
 }
@@ -39,6 +40,7 @@ p {
     } 
 }
 
+//Massage benefits
 .massage-benefits {
     color: white;
 
@@ -60,6 +62,7 @@ p {
     }
 }
 
+//Prices
 .service-prices {
     color: white;
     font-size: 40px;
@@ -76,6 +79,36 @@ p {
         flex-direction: column;
         align-items: center;
     }
+}
+
+@media only screen and (min-width: 768px) {
+    .massage-info {
+        .massage-text {
+            flex-direction: column;
+            align-items: center;
+
+            .image {
+                width: 70vw;
+            }
+        }
+
+        .text-info {
+            width: 80vw;
+            font-size: 1.5rem;
+        }
+    }
+
+    .massage-benefits {
+        .benefits-text {
+                p {
+                    font-size: 1.5rem;
+                    width: 80vw;
+                }
+            }
+            .massage-image {
+                width: 90vw;
+            }
+        }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -96,9 +129,15 @@ p {
         }
     }
 
+    .massage-benefits {
     .benefits-text {
-        p {
-            font-size: 1.5rem;
+            p {
+                font-size: 1.5rem;
+                width: 80vw;
+            }
+        }
+        .massage-image {
+            width: 90vw;
         }
     }
 

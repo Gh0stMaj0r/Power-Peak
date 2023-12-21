@@ -2,6 +2,7 @@ body {
     background-color: #262626;
 }
 
+//Personaltrainer
 .trainer-info {
     color: white;
     padding-top: 10vh;
@@ -28,14 +29,19 @@ body {
     width: 70vw;
 }
 
+//Prices
 .service-prices2 {
+    display: grid;
+    place-content: center;
     color: white;
     font-size: 40px;
 
     .prices-row {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
+        align-items: center;
+        width: 80vw;
     }
 
     .price-button {
@@ -56,6 +62,18 @@ body {
     width: 60vw;
 }
 
+@media only screen and (min-width: 768px) {
+    .trainer-info {
+        .info-text {
+            font-size: 1.5rem;
+        }
+        
+        .trainer-text {
+            width: 80vw;
+        }
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .trainer-info {
@@ -74,5 +92,11 @@ body {
 
     .trainer-shop-text {
         width: 80vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .progg-price-2 {
+        margin-top: 8vh;
     }
 }

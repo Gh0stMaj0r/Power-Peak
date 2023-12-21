@@ -41,7 +41,7 @@ const Hero = () => {
                 <h1>Lisäravinteet</h1>
                 <hr></hr>
                 <div className="supp-text">
-                    <p>
+                    <p className="supp-text-2">
                     Tehosta treenisi ja saavuta huippusuorituskyky Leaderin, Supermass Nutritionin ja Sportlife Nutritionin laadukkailla lisäravinteilla! 
                     <br></br>
                     <br></br>

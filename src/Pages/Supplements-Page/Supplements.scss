@@ -1,3 +1,4 @@
+//Supplements
 .supp-landing {
     background-image: url(../../../public/Images/Supplement.png);
     background-repeat: no-repeat;
@@ -32,7 +33,7 @@
     align-items: center;
 }
 
-.carousel {
+.carousel { //Carousel styling
     padding-top: 20px;
     padding-bottom: 20px;
 
@@ -41,7 +42,7 @@
     }
 
     li {
-        display: flex;
+        display: flex; //Adjust carousel images so they are straight
         align-items: flex-end;
         justify-content: center;
         text-align: center;
@@ -59,7 +60,7 @@
 }
 
 .shop-button {
-    width: 5vw;
+    width: auto;
     font-size: 20px;
     padding: 10px;
     border: 3px solid black;
@@ -67,8 +68,24 @@
     background-color: #ffff00;
 }
 
+@media only screen and (min-width: 768px) {
+    .supplements-logos {
+        flex-direction: column;
+
+        .logo {
+            width: 80vw;
+        }
+    }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .supp-landing {
+        h1 {
+            font-size: 4rem;
+        }
+    }
+    
     .supplements-logos {
         flex-direction: column;
 

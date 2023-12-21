@@ -9,13 +9,13 @@ const Sauna = () => {
     return (
         <>
         <Header/>
-
+        {/* Sauna */}
         <section className="sauna">
             <div className="sauna-info">
                 <h1>Sauna</h1>
                 <hr></hr>
                 <div className="sauna-text">
-                    <p className="sauna-info-text">
+                    <p className="sauna-info-text"> {/* info text about sauna */}
                     Tervetuloa Power Peak -salin ainutlaatuiseen saunaelämykseen! 
                     Luomme rentouttavan ympäristön, jossa voit huoletta irrottautua arjen kiireistä ja antautua täydelliseen rentoutumiseen. 
                     Tutustu tilaviin ja mukavasti varusteltuihin saunatiloihimme, ja anna kehosi levätä rankan treenin jälkeen. 
@@ -27,6 +27,7 @@ const Sauna = () => {
                 </div>
             </div>
 
+            {/* Sauna benefits */}
             <div className="sauna-benefits">
                 <h1>Hyödyt</h1>
                 <hr></hr>
@@ -43,11 +44,12 @@ const Sauna = () => {
                     5. Kokonaisvaltainen hyvinvointi: Saunominen voi tukea yleistä terveyttä ja hyvinvointia, edistäen parempaa unen laatua ja verenkiertoa.
                     </p>
                 </div>
-                <h3 className="benefits-quote">
+                <h3 className="benefits-quote"> {/* Quote */}
                     Tule nauttimaan saunaelämyksestä osana Power Peak -jäsenyyttäsi ja antamaan kehollesi tilaisuus palautua parhaalla mahdollisella tavalla.
                 </h3>
             </div>
 
+            {/* Prices */}
             <div className='service-prices'>
                 <h1>Hinnat</h1>
                 <hr></hr>

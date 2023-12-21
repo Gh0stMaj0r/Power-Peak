@@ -1,3 +1,4 @@
+//Cookie banner animation
 @keyframes cookieanimation {
     0% {
         opacity: 0;
@@ -7,7 +8,7 @@
         opacity: 1;
     }
 }
-
+//Cookie banner
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -25,7 +26,7 @@
         width: 20vw;
     }
   }
-
+//Buttons
   .cookie-buttons {
     display: flex;
     gap: 1vw;
@@ -52,5 +53,15 @@
 
     .cookie-reject:hover {
         opacity: 0.75;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .cookie-banner {
+        width: 80vw;
+
+        p {
+            width: 80vw;
+        }
     }
   }

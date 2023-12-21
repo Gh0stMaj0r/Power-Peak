@@ -10,6 +10,8 @@ const Eula = () => {
         <Header/>
 
         <section className="policies">
+            <h1>EULA</h1>
+            <hr></hr>
             <div className="policies2">
                 <h2>TÄRKEÄÄ: LUE TÄMÄ SOPIMUS HUOLELLISESTI ENNEN KUIN ASENNAT TAI KÄYTÄT OHJELMISTOA.</h2>
                 <p>Tämä Loppukäyttäjän Käyttöoikeussopimus ("Sopimus") on oikeudellinen sopimus sinun (joko yksilön tai yhden oikeushenkilön) ja [Yrityksesi nimi] ("Myöntäjä") välillä ohjelmistotuotteesta, joka on yllä määritelty ja joka sisältää tietokoneohjelmiston sekä siihen liittyvät mediat, painetut materiaalit ja "online" tai sähköiset asiakirjat ("Ohjelmisto"). Asentamalla, kopioimalla tai muutoin käyttämällä Ohjelmistoa suostut sitoutumaan tämän Sopimuksen ehtoihin. 

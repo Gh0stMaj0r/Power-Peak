@@ -4,13 +4,14 @@ import './Cookies.scss'
 import Cookies from 'js-cookie';
 import { useState } from 'react';
 
+//Cookie banner function
 const CookieBanner = () => {
     const [isCookieAccepted, setCookieAccepted] = useState(!Cookies.get('cookie_accepted'));
   
     const hideBanner = () => {
       setCookieAccepted(false);
     };
-  
+  //When user clicks button, cookie goes away
     const handleAccept = () => {
       console.log('Evästeet hyväksytty');
       const oneYearFromNow = new Date();

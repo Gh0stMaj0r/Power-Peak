@@ -8,6 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 import { CartFill } from 'react-bootstrap-icons';
 
 const responsive = {
+  //Carousel responsive screen sizes
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
@@ -19,7 +20,7 @@ const responsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 1
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -32,21 +33,22 @@ const Supplements = () => {
         
         <>
         <Header/>
-        
+        {/* Supplements */}
         <section className='supplements-shop'>
             <div className='supp-landing'>
                 <h1>"Abs are made in the kitchen"</h1>
                 <p>Lisäravinteet auttavat kehoa ja lihaksia kasvamaan</p>
             </div>
-
+            {/* Supplement brands */}
             <div className='supplements-logos'>
                 <img className="logo" src="./Images/Nutrition.png" loading="lazy" alt="" />
                 <img className="logo" src="./Images/Leader.png" loading="lazy" alt="" />
                 <img className="logo" src="./Images/Sportlife.png" loading="lazy" alt="" />
             </div>
 
+            {/* Pre-workouts with carousel component */}
             <div className='all-supp'>
-                <h1>Pre-workout</h1>
+                <h1>Pre-workout</h1> 
                 <hr></hr>
                 <div>
                 <Carousel containerClass='carousel' responsive={responsive}>
@@ -95,6 +97,7 @@ const Supplements = () => {
                 </div>
             </div>
 
+            {/* Creatine with carousel component */}
             <div className='all-supp'>
               <h1>Creatiini ja muut ravintolisät</h1>
               <hr></hr>
@@ -145,6 +148,7 @@ const Supplements = () => {
               </div>
             </div>
 
+            {/* Protein with carousel component */}
             <div className='all-supp'>
               <h1>Proteiinijauhe</h1>
               <hr></hr>

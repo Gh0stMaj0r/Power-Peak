@@ -160,6 +160,28 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 2px 30px;
+
+    .logo {
+      width: 35vw;
+    }
+  }
+ 
+  .dropdown {
+    display: none;
+  }
+  
+  .right-navlinks {
+    display: none;
+  }
+  
+  .bm-burger-button{
+    display: block;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header {

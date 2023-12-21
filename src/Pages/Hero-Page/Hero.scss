@@ -119,6 +119,8 @@ p {
     font-size: 40px;
 
     .supp-text {
+        display: flex;
+        justify-content: center;
         width: 80vw;
     }
 
@@ -183,19 +185,42 @@ p {
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .landing {
+        p {
+            width: 60vw;
+        }
 
-}
+        .landing-button {
+            width: 18vw;
+        }
+    }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+    .services {
+        flex-direction: column;
 
+        .images {
+            flex-direction: column;
+        }
+    }
+
+    .supplements {
+        .supp-text {
+            width: auto;
+        }
+
+        .supp-text-2 {
+            width: 100vw;
+        }
+
+        .supp-logos {
+            flex-direction: column;
+        }
+
+        .supp-button {
+            margin-top: 5vh;
+        }
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -247,6 +272,10 @@ p {
             font-size: 30px;
         }
 
+        .supp-text-2 {
+            width: 90vw;
+        }
+
         .supp-logos {
             flex-direction: column;
             width: 100vw;
@@ -275,8 +304,64 @@ p {
         }
 
         .progg-price {
-            margin-top: 8vh;
+            margin-top: 10vh;
         }
     }
 
+}
+
+@media only screen and (max-width: 400px) {
+    .landing {
+        background-size: cover;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            width: 80vw;
+        }
+
+        .landing-button {
+            width: 40vw;
+        }
+    }
+
+    .supplements {
+        
+        .supp-text {
+            width: 100vw;
+            font-size: 25px;
+        }
+
+        .supp-text-2 {
+            width: 90vw;
+        }
+
+        .supp-logos {
+            flex-direction: column;
+            width: 100vw;
+            gap: 2vh;
+        }
+
+        .logo {
+            width: 80vw;
+        }
+
+        .supp-button {
+            margin-top: 5vh;
+        }
+    }
+
+    .price-list {
+        padding: 20px;
+
+        .program {
+            width: 10vw;
+        }
+
+        .progg-price {
+            margin-top: 12vh;
+        }
+    }
 }

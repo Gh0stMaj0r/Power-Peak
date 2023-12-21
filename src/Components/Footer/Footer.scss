@@ -3,7 +3,7 @@ h3 {
     color: white;
     font-size: 2rem;
 }
-
+//Footer style
 .footer {
     height: 30vh;
     background-color: #262626;
@@ -59,19 +59,11 @@ h3 {
     margin-bottom: 5vh;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
+    .footer {
+        flex-direction: column;
+        height: 145vh;
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -88,5 +80,11 @@ h3 {
     .maps-contact {
         flex-direction: column;
         align-items: baseline;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .footer {
+        height: 210vh;
     }
 }

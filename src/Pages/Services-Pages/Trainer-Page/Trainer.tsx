@@ -9,12 +9,12 @@ const Trainer = () => {
     return (
         <>
         <Header/>
-        
+        {/* Personaltrainer */}
         <section className='personaltrainer'>
             <div className='trainer-info'>
                 <h1>Personaltrainer</h1>
                 <hr></hr>
-                <div className='info-text'>
+                <div className='info-text'>{/* Info about personaltrainer service */}
                     <p className='trainer-text'>Power Peak -salin personal trainer -palvelu tarjoaa sinulle henkilökohtaista ohjausta ja tukea matkallasi kohti parempaa kuntoa. Palvelumme kattaa laajan valikoiman tavoitteisiisi soveltuvia harjoitusohjelmia ja antaa sinulle yksilöllistä neuvontaa:<br></br><br></br>
 
                         1. Henkilökohtainen suunnitelma: Personal trainer laatii juuri sinulle räätälöidyn harjoitusohjelman, ottaen huomioon tavoitteesi, kunto-tasosi ja mahdolliset rajoitteet.<br></br><br></br>
@@ -35,6 +35,7 @@ const Trainer = () => {
                 <img className="image" src="./Images/Personaltrainer.png" loading="lazy" alt="" />
             </div>
 
+            {/* Prices */}
             <div className='service-prices2'>
                 <h1>Hinnat</h1>
                 <hr></hr>
@@ -44,11 +45,11 @@ const Trainer = () => {
                 </div>
                 <div className='prices-row'>
                     <p>Treeniohjelma Alkaen</p>
-                    <p>29,90€</p>
+                    <p className='progg-price-2'>29,90€</p>
                 </div>
                 <div className='prices-row'>
                     <p>Ravitsemusohjelma Alkaen</p>
-                    <p>160€/kk</p>
+                    <p className='progg-price-2'>160€/kk</p>
                 </div>
                 <div className='trainer-shop'>
                     <p className='trainer-shop-text'>Kun ostat personaltrainer tunteja voit sopia valitsemasi trainerin kassa päivät jolloin haluat hänen avustusta</p>
