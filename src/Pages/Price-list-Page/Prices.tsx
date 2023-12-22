@@ -84,18 +84,18 @@ const Hinnat = () => {
 </div>
 </div>
 <div className='personaltrainer'>
-<h1 className='otsikko'>RAVITSEMUSOHJELMA</h1>
+<h1 className='otsikko' id="ravi">RAVITSEMUSOHJELMA</h1>
 <hr></hr>
 
 <div className="container2">
       <table>
   <tr>
     <td className="tuote-hinta">6 Kuukautta</td>
-    <td className='tuoteen-hinta'>25€/kk</td>
+    <td className='rav-tuoteen-hinta'>25€/kk</td>
   </tr>
   <tr>
     <td className="tuote-hinta">12 Kuukautta</td>
-    <td className='tuoteen-hinta'>20€/kk</td>
+    <td className='rav-tuoteen-hinta'>20€/kk</td>
   </tr>
 </table>
 </div>
@@ -128,7 +128,7 @@ const Hinnat = () => {
 
 <div className='price-list'>
 <div className="price-list-button">
-  <p className='nt'>*Tarkemman hinnaston näet</p>
+  <p className='nt'>*jäsenyys lomakke täältä</p>
   <a className="button-link" href="/form">
   <button className="yellow-button">Täältä <ArrowRight></ArrowRight></button>
  </a>

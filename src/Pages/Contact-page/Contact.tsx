@@ -11,8 +11,11 @@ const Contact = () => {
       <Header/>
 
       <div className='body'>
+      <header className="H_Header">
         <h1 className='Hinta-Header'>yhteystiedot</h1>
+        </header>
         <hr></hr>
+        <div className='con-tekst'>
         <p className='text'>
           Power Peak Fitness Center on innovatiivinen kuntosali, 
           joka tarjoaa monipuolisia palveluita 
@@ -28,13 +31,14 @@ const Contact = () => {
           terveellisempää elämäntapaa.
         </p>
         <br></br><br></br><br></br>
-        <h1 className='Hinta-Header'>Tule meidän <br></br>
+        </div>
+        <h1 className='otsikko'>Tule meidän <br></br>
         kanssa kohti terveellisempää tulevaisuutta</h1>
         <hr></hr>
         <div className='form-contact'>
         <div className='icons'>
           <div className='dmap'>
-            <GeoAltFill className='map'></GeoAltFill> <p className='tiedot'>osoite</p>
+            <GeoAltFill className='map'></GeoAltFill> <p className='tiedot'>Kotkantie 2a, 90250 Oulu</p>
           </div>
           <div className='dmail'>
             <EnvelopeAtFill className='mail'></EnvelopeAtFill> <p className='tiedot'>powerpeak@gmail.com</p>
@@ -45,7 +49,7 @@ const Contact = () => {
         </div>
         <div className='forms'>
   <form>
-    <h1 className='Hinta-Header'>Ota meihin yhteyttä</h1>
+    <h1 className='otsikko'>Ota meihin yhteyttä</h1>
     <div className='form-nimet'>
       <div className='form-nimi'>
         <input type="text" name='etunimi' placeholder='etunimi' />
@@ -62,10 +66,10 @@ const Contact = () => {
   <a className="button-link" href="/ostoskori">
     <div className='form-napit'>
     <div className='tyhjennä'>
-  <button type='submit' className="con-yellow-button">Lähetä </button>
+  <button type='submit' className="con-yellow-button">Tyhjennä</button>
   </div>
   <div className='lähetä'>
-    <button type='reset' className="con-yellow-button">Tyhjennä</button>
+    <button type='reset' className="con-yellow-button">Lähetä</button>
     </div>
     </div>
  </a>

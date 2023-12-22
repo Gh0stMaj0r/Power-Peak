@@ -3,43 +3,58 @@
 
     margin-top: 25vh;
 }
-
+.con-tekst {
+  display: flex;
+  justify-content: center;
+}
 .text{
-    font-size: 5vh;
+    font-size: 4vh;
     display: flex;
-    font-family: Playfair Display;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
     color: #ffffff;
-    text-align-last: left;
+
     margin:0  25vw 0 25vw;
 }
 
+.form-contact {
+  display: flex;
+  justify-content: space-evenly;
 
 
-.icons{
-    display: flex;
-    flex-direction: column;
-    padding-top: 25vh;
 
-  }
-  
-.map,.mail,.phone{
-    font-size: 5vh;
-    text-align-last: left;
-    float: left;
-    color: #ffffff;
-    margin-top: 3vw;
+/* Styles outside media query */
+
+.icons {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 10vh;
+  margin-top: 20vh;
 }
-.tiedot{
-    font-size: 4vh;
-    display: flex;
-    font-family: Playfair Display;
-    color: #ffffff;
-    text-align-last: left;
-    margin: 5vh 0 0 9vh;
-    width: 20vw;
+
+.dmap,
+.dmail,
+.dphone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust the margin as needed for spacing between icon-text pairs */
 }
-.dmap,.dmail,.dphone{
-    width:30vw;
+
+.map,
+.mail,
+.phone {
+  font-size: 5vh;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.tiedot {
+  font-size: 4vh;
+  font-family: Playfair Display;
+  color: #ffffff;
+  text-align-last: left;
+  margin: 0;
 }
 
 input{
@@ -54,23 +69,16 @@ input{
 }
 .form-nimet {
     display: flex;
-    gap: 20px;
+    gap: 25px;
   }
   
   .form-nimi {
-    width: 50%; /* Adjust the width as needed */
+    width: 20vw; /* Adjust the width as needed */
   }
 
   .form-nimi2 {
-    width: 50%; /* Adjust the width as needed */
+    width: 20vw; /* Adjust the width as needed */
   }
-  .forms {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  
   form {
     display: flex;
     flex-direction: column;
@@ -93,7 +101,6 @@ input{
         .con-yellow-button {
           display: flex;
           justify-content: center;
-          width: 12vw;
           border: 3px solid black;
           border-radius: 25px;
           background-color: #ffff00;
@@ -121,9 +128,153 @@ input{
     padding: 5px;
     margin-top: 20px;
   }
-  
+}
+@media only screen and (max-width: 1024px) {
   .form-contact {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
   }
-  
+
+  input {
+    width: 20vw; /* Set a specific width for all input fields */
+    box-sizing: border-box; /* Include padding and border in the width */
+  }
+
+  textarea {
+    width: 90%; /* Set a specific width for all input fields */
+    box-sizing: border-box;
+  }
+
+  .form-nimet {
+    display: none;
+    gap: 2px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .body {
+    /* Update the styles for smaller screens */
+    .form-contact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1vh;
+      padding-left: 8vw;
+      padding-bottom: 5vh;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      gap: 10vh;
+      margin: 5vh 0 0 5vw;
+    }
+    
+    .dmap,
+    .dmail,
+    .dphone {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; /* Adjust the margin as needed for spacing between icon-text pairs */
+    }
+    
+    .map,
+    .mail,
+    .phone {
+      font-size: 5vh;
+      color: #ffffff;
+      margin-right: 5px;
+    }
+    
+    .tiedot {
+      font-size: 3vh;
+      font-family: 'Playfair Display', serif;
+      color: #ffffff;
+      text-align-last: left;
+      margin: 0 0 0 2vw;
+    }
+
+    input {
+      width: 90%; /* Set a specific width for all input fields */
+      box-sizing: border-box; /* Include padding and border in the width */
+
+    }
+    textarea{
+      width: 90%; /* Set a specific width for all input fields */
+      box-sizing: border-box;
+    }
+
+    .fname {
+      font-size: 4vh;
+    }
+
+    #message {
+      resize: vertical;
+    }
+
+    .form-nimet {
+      display: flex;
+      gap: 2px;
+ /* Adjusted for smaller screens */
+
+    }
+
+    .form-nimi,
+    .form-nimi2 {
+      width: 43vw; /* Adjust the width as needed */
+    }
+
+    .con-price-list {
+      background-color: #262626;
+      text-align: center;
+      display: grid;
+      place-content: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 0vh;
+    }
+
+    .con-price-list-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .con-yellow-button {
+      display: flex;
+      justify-content: center;
+      width: 100%; /* Adjust the width as needed */
+      border: 3px solid black;
+      border-radius: 25px;
+      background-color: #ffff00;
+      padding: 12px;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 25px;
+    }
+
+    .tyhjenna {
+      text-align: center;
+      justify-content: left;
+    }
+
+    .form-napit {
+      display: flex;
+      justify-content: space-between;
+      gap: 16vw;
+      margin-top: 10px;
+    }
+
+    input,
+    textarea {
+      background-color: #3a3939;
+      border: 2px solid #FFFF00;
+      border-radius: 12px;
+      padding: 5px;
+      margin-top: 20px;
+    }
+  }
+}

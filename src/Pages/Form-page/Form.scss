@@ -1,0 +1,242 @@
+
+
+.H_Header {
+  margin-top: 10vh;
+  text-align: center;
+  color: white;
+}
+.form-otsikko{
+  color: white;
+}
+.form-ostikko{
+  
+    h1 {
+        font-size: 6rem;
+        color: white;
+
+    }
+
+    .Form-Teksti{
+        color: #FFFF00;
+        margin-top: 10vh;
+    }
+}
+form{
+.fomr-alaots{
+    h1 {
+        font-size: 6rem;
+        color: white;
+
+    }
+}
+}
+
+.lomake {
+    display: flex;
+    justify-content: center;
+
+    input{
+        font-size: 4vh;
+        color: #969696;
+    }
+
+    label{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 4vh;
+        color: white;
+        margin-top: 20px;
+
+    }
+
+  
+  .form-nimet {
+      display: flex;
+      gap: 20px;
+    }
+    
+    .form-nimi {
+      width: 50%; /* Adjust the width as needed */
+    }
+  
+    .form-nimi2 {
+      width: 50%; /* Adjust the width as needed */
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 1vh;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      .con-price-list {
+          background-color: #262626;
+          text-align: center;
+          display: grid;
+          place-content: center;
+          color: white;
+          font-size: 40px;
+          margin-top: 0vh;
+        
+          .con-price-list-button {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+          }
+          .con-yellow-button {
+            display: flex;
+            justify-content: center;
+
+            border: 3px solid black;
+            border-radius: 25px;
+            background-color: #ffff00;
+            padding: 12px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 25px;
+          }
+        }
+        
+    }
+    .tyhjennä{
+      text-align: center;
+      justify-content: left;
+    }
+    .form-napit{
+      display: flex;
+      justify-content: space-between;
+      gap: 16vw;
+      margin-top: 10px;
+    }
+    select{
+        font-size: 4vh;
+        color: #969696;
+    }
+    select, input, textarea {
+      background-color: #3a3939;
+      border: 2px solid #FFFF00;
+      border-radius: 12px;
+      padding: 5px;
+      .l_s{
+        margin-top: 2vh;
+        display: none;
+    }
+    }
+    
+    .form-contact {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+  .valikko {
+    width: 53vw; /* Set a common width for all .valikko elements */
+    margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .valikko select {
+    width: 100%; /* Set the select element to fill its parent container */
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .lomake {
+      display: flex;
+      justify-content: center;
+  
+      input{
+          font-size: 4vh;
+          color: #969696;
+      }
+  
+      label{
+          font-family: 'Bebas Neue', sans-serif;
+          font-size: 4vh;
+          color: white;
+          margin-top: 20px;
+  
+      }
+  
+    
+    .form-nimet {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+      
+      .form-nimi {
+        width: 50%; /* Adjust the width as needed */
+      }
+    
+      .form-nimi2 {
+        width: 50%; /* Adjust the width as needed */
+      }
+    .form-napit {
+      gap: 8vw; /* Adjusted for smaller screens */
+    }
+    select, input, textarea {
+      background-color: #3a3939;
+      border: 2px solid #FFFF00;
+      border-radius: 12px;
+      padding: 5px;
+      width: 55vw;
+      .l_s{
+        margin-top: 2vh;
+        display: none;
+    }
+    }
+
+    
+  }
+}
+  
+  @media (max-width: 600px) {
+    input,
+    select {
+      width: 95%; /* Adjusted width to be 80% of the screen on smaller screens */
+    }
+  
+    .tyhjennä {
+      text-align: center;
+      justify-content: left;
+    }
+  
+    .form-napit {
+      display: flex;
+      justify-content: space-between;
+      gap: 16vw;
+      margin-top: 10px;
+    }
+  
+    select {
+      font-size: 4vh;
+      color: #969696;
+      width: 100%; /* Adjusted width to fit the screen */
+    }
+  
+    select,
+    input,
+    textarea {
+      background-color: #3a3939;
+      border: 2px solid #FFFF00;
+      border-radius: 12px;
+      padding: 5px;
+      margin-top: 20px;
+      width: 410vw;
+  
+      .l_s {
+        margin-top: 2vh;
+        display: none;
+      }
+    }
+  
+    .form-contact {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .valikko {
+      width: 100%; /* Adjusted width to fit the screen */
+      margin-bottom: 10px;
+    }
+  
+    .valikko select {
+      width: 100%;
+    }
+  }

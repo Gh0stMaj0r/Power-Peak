@@ -9,10 +9,12 @@ import Supplements from './Pages/Supplements-Page/Supplements';
 import Prices from "./Pages/Price-list-Page/Prices";
 import Contact from './Pages/Contact-page/Contact';
 import ShoppingCart from './Pages/ShoppingCart-Page/Shoppingcart';
+
 import Terms from './Pages/Policies-Page/Terms/Terms';
 import Privacy from './Pages/Policies-Page/Privacy/Privacy';
 import Legal from './Pages/Policies-Page/Legal/Legal';
 import Eula from './Pages/Policies-Page/Eula/Eula';
+
 import Form from './Pages/Form-page/Form';
 
 import {
@@ -64,6 +66,7 @@ function App() {
         <Route
           path='/form'
           element={<Form/>}/>
+
       </Routes>
     </Router>
   );
