@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { CartFill } from 'react-bootstrap-icons'
 import { slide as Menu } from 'react-burger-menu'
 import './Navbar.scss'
 
@@ -22,7 +21,6 @@ const Header = () => {
                 <a href="/ravinteet">Lisäravinteet</a>
                 <a href="/hinnasto">Hinnasto</a>
                 <a href="/yhteystiedot">Yhteystiedot</a>
-                <a href="/ostoskori"><CartFill></CartFill></a>
             </div>
             {/* Hamburgerbutton */}
             <Menu isOpen={false} width={ '300px' } right>
