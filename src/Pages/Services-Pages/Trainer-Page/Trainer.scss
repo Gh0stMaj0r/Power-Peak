@@ -41,7 +41,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 80vw;
+        width: 60vw;
     }
 
     .price-button {
@@ -96,6 +96,17 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
+    .service-prices2 {
+    
+        .prices-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 80vw;
+        }
+    }
+    
     .progg-price-2 {
         margin-top: 8vh;
     }
