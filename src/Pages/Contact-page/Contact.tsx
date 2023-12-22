@@ -16,7 +16,7 @@ const Contact = () => {
         </header>
         <hr></hr>
         <div className='con-tekst'>
-        <p className='text'>
+        <p className='text'>{/*teksi jossa kerrotaan yrityksen taustasta */}
           Power Peak Fitness Center on innovatiivinen kuntosali, 
           joka tarjoaa monipuolisia palveluita 
           kaikenikäisille ja -tasoisille kuntoilijoille.
@@ -37,7 +37,7 @@ const Contact = () => {
         <hr></hr>
         <div className='form-contact'>
         <div className='icons'>
-          <div className='dmap'>
+          <div className='dmap'> {/*yhteystiedot */}
             <GeoAltFill className='map'></GeoAltFill> <p className='tiedot'>Kotkantie 2a, 90250 Oulu</p>
           </div>
           <div className='dmail'>
@@ -49,7 +49,7 @@ const Contact = () => {
         </div>
         <div className='forms'>
   <form>
-    <h1 className='otsikko'>Ota meihin yhteyttä</h1>
+    <h1 className='otsikko'>Ota meihin yhteyttä</h1>{/*palaute lomake */}
     <div className='form-nimet'>
       <div className='form-nimi'>
         <input type="text" name='etunimi' placeholder='etunimi' />

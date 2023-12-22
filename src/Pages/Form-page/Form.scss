@@ -10,32 +10,20 @@
 }
 .form-ostikko{
   
-    h1 {
-        font-size: 6rem;
-        color: white;
 
-    }
 
     .Form-Teksti{
         color: #FFFF00;
         margin-top: 10vh;
     }
 }
-form{
-.fomr-alaots{
-    h1 {
-        font-size: 6rem;
-        color: white;
 
-    }
-}
-}
 
-.lomake {
+.lomake { /*lomake*/
     display: flex;
     justify-content: center;
 
-    input{
+    input{ /*inputtien teksti koko ja väri*/
         font-size: 4vh;
         color: #969696;
     }
@@ -49,25 +37,25 @@ form{
     }
 
   
-  .form-nimet {
+  .form-nimet { /*etunimi sukunimi*/
       display: flex;
       gap: 20px;
     }
     
     .form-nimi {
-      width: 50%; /* Adjust the width as needed */
+      width: 50%;
     }
   
     .form-nimi2 {
-      width: 50%; /* Adjust the width as needed */
+      width: 50%; 
     }
-    form {
+    form {/*lomakkeen asettelu*/
       display: flex;
       flex-direction: column;
       margin-top: 1vh;
       padding-left: 5vw;
       padding-right: 5vw;
-      .con-price-list {
+      .con-price-list { /*nappi*/
           background-color: #262626;
           text-align: center;
           display: grid;
@@ -110,7 +98,7 @@ form{
         font-size: 4vh;
         color: #969696;
     }
-    select, input, textarea {
+    select, input, textarea {/*asettelua selectille input ja palaute*/
       background-color: #3a3939;
       border: 2px solid #FFFF00;
       border-radius: 12px;
@@ -126,16 +114,16 @@ form{
       justify-content: space-evenly;
     }
   }
-  .valikko {
-    width: 53vw; /* Set a common width for all .valikko elements */
-    margin-bottom: 10px; /* Adjust margin as needed */
+  .valikko { /*valikolle asettelua*/
+    width: 53vw; 
+    margin-bottom: 10px;
   }
   
   .valikko select {
-    width: 100%; /* Set the select element to fill its parent container */
+    width: 100%; 
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1024px ) {
     .lomake {
       display: flex;
       justify-content: center;

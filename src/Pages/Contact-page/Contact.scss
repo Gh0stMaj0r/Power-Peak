@@ -1,5 +1,4 @@
-.body{
-    background-color: #262626;
+.body{/*bodylle tausta väri*/
 
     margin-top: 25vh;
 }
@@ -7,7 +6,7 @@
   display: flex;
   justify-content: center;
 }
-.text{
+.text{/*tekstille tyyli*/
     font-size: 4vh;
     display: flex;
     justify-content: center;
@@ -18,7 +17,7 @@
     margin:0  25vw 0 25vw;
 }
 
-.form-contact {
+.form-contact {/*asettelua osoite jns ja palautelomakkeelle*/
   display: flex;
   justify-content: space-evenly;
 
@@ -26,14 +25,14 @@
 
 /* Styles outside media query */
 
-.icons {
+.icons {/*asettelua yheystiedoille*/
   display: flex;
   flex-direction: column; /* Stack items vertically */
   gap: 10vh;
   margin-top: 20vh;
 }
 
-.dmap,
+.dmap, /*tyyliä kuville*/
 .dmail,
 .dphone {
   display: flex;
@@ -41,7 +40,7 @@
   margin-bottom: 10px; /* Adjust the margin as needed for spacing between icon-text pairs */
 }
 
-.map,
+.map,/*asettelua teksitlle*/
 .mail,
 .phone {
   font-size: 5vh;
@@ -49,7 +48,7 @@
   margin-right: 5px;
 }
 
-.tiedot {
+.tiedot { /*tyyliä tekstille*/
   font-size: 4vh;
   font-family: Playfair Display;
   color: #ffffff;
@@ -57,7 +56,7 @@
   margin: 0;
 }
 
-input{
+input{/*palautelomake tyyliä/asettelua*/
     font-size: 3vh;
 }
 
@@ -83,7 +82,7 @@ input{
     display: flex;
     flex-direction: column;
     margin-top: 1vh;
-    .con-price-list {
+    .con-price-list {/*nappi*/
         background-color: #262626;
         text-align: center;
         display: grid;

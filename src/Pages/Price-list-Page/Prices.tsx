@@ -19,7 +19,7 @@ const Hinnat = () => {
       <h1 className='otsikko'>JÄSENYYDET</h1>
       <hr></hr>
       <div className="container2">
-      <table>
+      <table>{/*table jossa on hinta ja tuote*/ }
   <tr>
     <td className="tuote-hinta">1kk</td>
     <td className='tuoteen-hinta'>40€</td>
@@ -57,7 +57,7 @@ const Hinnat = () => {
   </tr>
 </table>
 </div>
-<div className='price-texts'>
+<div className='price-texts'>{/*teksi jossa kerrotaan personaltrainerista*/ }
 <p className='PRp'>Kun ostat personaltrainer tunteja voit sopia valitsemasi trainerin
    kassa päivät jolloin haluat hänen avustusta</p>
    </div>
@@ -126,7 +126,7 @@ const Hinnat = () => {
 </table>
 </div>
 
-<div className='price-list'>
+<div className='price-list'>{/* nappi jäsenyys lomakkeeseen*/}
 <div className="price-list-button">
   <p className='nt'>*jäsenyys lomakke täältä</p>
   <a className="button-link" href="/form">

@@ -1,53 +1,31 @@
 /* Prices.scss */
 
-/* General Styles */
-.H-Body {
-  background-color: #262626;
-}
-
-.otsikko {
+.otsikko { /*alaotsikkojen väri*/
   color: #FFFF00;
 }
 
-.container2 {
+.container2 {/*asettelua*/
   display: flex;
   justify-content: center;
   margin-top: 2vh;
   font-size: 5vh;
 
-  tr {
+  tr {/*tuote ja hinta*/
     display: flex;
     justify-content: space-between;
     width: 50vw;
     top: 4vh;
   }
 
-  td {
+  td {/*tuote ja hinta*/
     color: white;
     margin-top: 4vh;
     font-family: 'Playfair Display', serif;
   }
 }
 
-.price-texts,
-.RMp,
-.Maksu,
-.PRp,
-.RMp {
-  font-size: 5vh;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
 
-/* Header Styles */
-.H_Header {
-  margin-top: 10vh;
-  text-align: center;
-  color: white;
-}
-
-/* Table Styles */
+/* Table tyyli */
 .tuote-hinta {
   color: white;
   display: flex;
@@ -95,28 +73,6 @@
   }
 }
 
-.nt {
-  font-family: 'Playfair Display', serif;
-  color: white;
-  width: 28vw;
-  text-align: center;
-  font-size: 1.8rem;
-  transform: translate(0, -2vh);
-}
-
-/* Personal Trainer Styles */
-.personaltrainer {
-  margin-top: 3vh;
-}
-
-.PRhintaF,
-.PRhinta,
-.PRhinta2,
-.PRhinta3 {
-  margin-left: 36vh;
-  color: white;
-  font-family: 'Bebas Neue', sans-serif;
-}
 
 .PRp,
 .RMp {
@@ -134,23 +90,6 @@
   padding: 0 10vw 0 10vw;
 }
 
-/* Treeniohjelma Styles */
-.TRhinta,
-.TRhinta2,
-.TRhinta3,
-.RMhinta,
-.RMhinta2,
-.Hhinta {
-  margin-top: 3vh;
-  margin-left: 41vh;
-  color: white;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-/* Footer Styles */
-.Footer {
-  /* Add styles for the Footer component if needed */
-}
 @media only screen and (max-width: 1024px) {
  
   .container2 {
