@@ -17,6 +17,8 @@ import Eula from './Pages/Policies-Page/Eula/Eula';
 
 import Form from './Pages/Form-page/Form';
 
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -26,6 +28,8 @@ import {
 function App() {
   return (
     <Router>
+      <SpeedInsights/>
+
       <Routes>
         <Route
           path='/'
